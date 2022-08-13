@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**********************************/
+/* 0. Variáveis
+/* 1. Estilos gerais
+/* 2. Top Title
+/* 3. Navbar
+/* 4. Containers
+/* 5. images
+/* 6. Footer
+/**********************************/
+
+/**********************************/
+/* 0. Variáveis
+/**********************************/
+
+
+
+/**********************************/
+/* 1. Estilos Gerais
+/**********************************/
+
+body {
+    height: 100%;
+    background-color: #2d2a2a;
+}
+
+p, h1, h2, h3 {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: #2d2a2a;
+    border-style: solid;
+    border-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+/**********************************/
+/* 2. Top Title
+/**********************************/
+.riscs {
+    z-index: -1;
+    margin-top: 8rem;
+}
+
+.img-logo {
+    width: 300px;
+    margin-top: -15rem;
+    margin-left: 5rem;
+    z-index: 1;
+}
+
+.title-container {
+    letter-spacing: 6px;
+}
+
+/**********************************/
+/* 3. Navbar
+/**********************************/
+
+.navigation {
+  margin-top: -13rem;
+  background-color: #2d2a2a;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  width: 35rem;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-color: #fff;
+  z-index: 100;
+}
+
+.nav {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1rem;
+  display: flex;
+  top: 50%;
+  bottom: 50%;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #999;
+  transition: 1s;
+}
+
+/**********************************/
+/* 4. Container
+/**********************************/
+
+.container-cube {
+    width: 25rem;
+    height: 6rem;
+    background-color: #2d2a2a;
+    border-radius: 3px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    border: 2px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.container-content{
+    text-transform: none;
+}
+
+.container-content p {
+    margin-top: 1.2rem;
+}
+
+.container-footer {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    letter-spacing: 6px;
+}
+
+/**********************************/
+/* 5. Images
+/**********************************/
+
+.packs img {
+    width: 18rem;
+    margin-top: 5rem;
+}
+
+.lager {
+    margin-top: -80rem;
+    margin-left: 4rem;
+    position: absolute;
+}
+
+/**********************************/
+/* 7. Footer
+/**********************************/
+
+.footer-content {
+    height: 2rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+  
+.footer-content p {
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #999;
+}
