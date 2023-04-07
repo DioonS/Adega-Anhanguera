@@ -473,5 +473,9 @@ span {
         height: 40rem;
         width: 20rem;
     }
+
+    .footer-content p{
+        font-size: 0.6rem;
+    }
 }
 
