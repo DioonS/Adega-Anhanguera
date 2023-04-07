@@ -158,8 +158,6 @@ span {
 }
 
 .container-cube {
-    width: 25rem;
-    height: 6rem;
     background-color: #2d2a2a;
     border-radius: 3px;
     align-items: center;
@@ -170,6 +168,9 @@ span {
     justify-content: center;
     text-transform: uppercase;
     border: 2px solid #fff;
+
+    width: 20em;
+    height: 5em;
 }
 
 .container-beer {
@@ -192,6 +193,7 @@ span {
     text-transform: none;
     text-align: center;
     font-family: 'Quicksand';
+    font-size: 1.2em;
 }
 
 .container-content p {
@@ -447,6 +449,23 @@ span {
 
 @media screen and (max-width: 1000px) {
     .sidebyside {
-    flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container-cube:nth-child(2) {
+        width: 70%;
+    }
+
+    .container-content {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navigation {
+        width: 90%;
+        height: 20%;
     }
 }
