@@ -471,7 +471,12 @@ span {
 
     .container-beer {
         height: 40rem;
-        width: 25rem;
+        width: 23rem;
+    }
+
+    .container-pack{
+        height: 40rem;
+        width: 23rem;
     }
 
     .footer-content p{
