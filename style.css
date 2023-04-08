@@ -187,6 +187,7 @@ span {
     border: 2px;
     border-style: solid;
     border-color: #fff;
+    max-width: 28rem;
 }
 
 .container-content{
@@ -198,6 +199,10 @@ span {
 
 .container-content p {
     margin-top: 1.4rem;
+}
+
+.container-pack {
+    width: 28rem;
 }
 
 .container-footer {
@@ -453,6 +458,7 @@ span {
     }
 }
 
+
 @media only screen and (max-width: 767px) {
     .container-cube:nth-child(2) {
         width: 70%;
@@ -471,12 +477,12 @@ span {
 
     .container-beer {
         height: 40rem;
-        width: 23rem;
+        width: 21rem;
     }
 
     .container-pack{
         height: 40rem;
-        width: 23rem;
+        width: 21rem;
     }
 
     .footer-content p{
