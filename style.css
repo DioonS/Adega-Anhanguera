@@ -11,9 +11,10 @@
 /* 4. Containers
 /* 5. images
 /* 6. Footer
-/* 7. Responsive-Image
-/* 8. Responsive-Logo
-/* 9. Responsive-Container
+/* 7. Link-Topo
+/* 8. Responsive-Image
+/* 9. Responsive-Logo
+/* 10. Responsive-Container
 /**********************************/
 
 /**********************************/
@@ -285,7 +286,40 @@ span {
 }
 
 /**********************************/
-/* 7. Responsive-image
+/* 7. Link Topo
+/**********************************/
+
+#link-topo {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    color: #fff;
+    border-radius: 100%;
+    text-decoration: none;
+    animation: bounce-bottom 2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes bounce-bottom {
+    to {
+        transform: translateY(10px);
+        animation-timing-function: ease-in;
+        
+    }
+    from {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+    }
+}
+
+/**********************************/
+/* 8. Responsive-image
 /**********************************/
 
 @media (max-width: 1180px) {
@@ -363,7 +397,7 @@ span {
 }
 
 /**********************************/
-/* 8. Responsive-logo
+/* 9. Responsive-logo
 /**********************************/
 
 @media (max-width: 1310px) {
@@ -449,7 +483,7 @@ span {
 }
 
 /**********************************/
-/* 9. Responsive-container
+/* 10. Responsive-container
 /**********************************/
 
 @media screen and (max-width: 1000px) {
@@ -489,4 +523,3 @@ span {
         font-size: 0.6rem;
     }
 }
-
