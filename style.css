@@ -171,14 +171,13 @@ span {
     overflow: hidden;
     z-index: -1;
     width: 300px;
-    margin-top: -15rem;
-    margin-left: 5rem;
+    margin-top: 10rem;
     z-index: 1;
 }
 
 .img-logo {
     width: 300px;
-    margin-top: -15rem;
+    margin-top: -12rem;
     margin-left: 5rem;
     z-index: 1;
 }
