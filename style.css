@@ -108,6 +108,11 @@ footer {
     margin-top: 2rem;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 span {
     font-weight: bold;
 }
@@ -1470,9 +1475,6 @@ div.coin-base, .time-left, .card-attribute {
     margin-top: -.3rem;
 }
 
-.card-attribute img {
-    margin-top: 0.8rem;
-}
 
 /*a.hero-image-container {
     position: relative;
