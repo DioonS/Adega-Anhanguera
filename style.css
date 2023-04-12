@@ -221,7 +221,7 @@ span {
     text-align: center;
     border: 2px;
     border-style: solid;
-    border-color: #fff;
+    box-shadow: 0 0 0 1px #FCD926, 0 0 0 2px #D19B3E;
     z-index: 100;
     justify-content: center;
 }
@@ -353,7 +353,8 @@ span {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    border: 2px solid #fff;
+    border: 2px solid;
+    box-shadow: 0 0 0 1px #FCD926, 0 0 0 2px #D19B3E;
     width: 20em;
     height: 5em;
 }
@@ -489,7 +490,7 @@ span {
     border-radius: 100%;
     text-decoration: none;
     animation: bounce-bottom 2s ease-in-out infinite alternate-reverse;
-    box-shadow: 0 0 0 2px #d67752, 0 0 0 3px #af6b04;
+    box-shadow: 0 0 0 2px #D19B3E, 0 0 0 3px #FCD926;
 }
 
 @keyframes bounce-bottom {
@@ -754,7 +755,7 @@ Classes
     /*border: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #f7d488, #ea6f3d) 2;
     background-clip: padding-box;*/
-    box-shadow: 0 0 0 1px #d67752, 0 0 0 2px #af6b04;
+    box-shadow: 0 0 0 1px #D19B3E, 0 0 0 2px #FCD926;
 }
 
 .ice-container:first-child {
@@ -1469,7 +1470,7 @@ div.coin-base, .time-left, .card-attribute {
 
 .card-attribute {
     padding-bottom: 1.5em;
-    border-top: 2px solid #f17b4c;
+    border-top: 2px solid #D19B3E;
 }
 
 .card-attribute p {
