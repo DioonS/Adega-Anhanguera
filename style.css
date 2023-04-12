@@ -183,20 +183,11 @@ span {
 /* 2. Top Title
 /**********************************/
 
-.riscs {
-    margin-top: 8rem;
-    overflow: hidden;
-    z-index: -1;
-    width: 300px;
-    margin-top: 10rem;
-    z-index: 1;
-}
-
 .img-logo {
     width: 300px;
-    margin-top: -12rem;
-    margin-left: 5rem;
-    z-index: 1;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: block;
 }
 
 .title-container {
@@ -210,7 +201,6 @@ span {
 /**********************************/
 
 .navigation {
-    margin-top: -13rem;
     background-color: #1e1e1e;
     margin-left: auto;
     margin-right: auto;
@@ -578,9 +568,6 @@ span {
 /**********************************/
 
 @media (max-width: 1310px) {
-    .riscs {
-        display: none;
-    }
     .img-logo {
         margin-top: 1rem;
         display: block;
@@ -596,15 +583,6 @@ span {
         margin-left: -1rem;
         margin-right: -1rem;
         width: 22rem;
-    }
-    .riscs {
-        width: 600px;
-    }
-}
-
-@media (max-width: 1550px) {
-    .riscs {
-        width: 500px;
     }
 }
 
