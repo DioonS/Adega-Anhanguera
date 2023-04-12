@@ -48,7 +48,11 @@ html {
 }
 
 body {
-    background-color: var(--var-main-darkest);
+    /*background-color: var(--var-main-darkest);*/
+    background-image: url(images/bebidas2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 img {
@@ -122,7 +126,7 @@ span {
 }
 
 ::-webkit-scrollbar-track {
-    background: #6f6b6b;
+    background: #1e1e1e;
     border-radius: 30px;
 }
 
@@ -147,7 +151,7 @@ span {
     height: 50px;
     border: none;
     border-radius: 20px;
-    background-color: #6f6b6b;
+    background-color: #1e1e1e;
     color: #fff;
     font-family: 'Quicksand';
     font-size: 24px;
@@ -167,11 +171,11 @@ span {
 
 .menu-principal button:hover {
     transform: scale(1.2);
-    background-color: #af6b04;
+    background-color: #FCD926;
 }
 
 .menu-principal button:active {
-    background-color: #af6b04;
+    background-color: #FCD926;
 }
 
 
@@ -207,7 +211,7 @@ span {
 
 .navigation {
     margin-top: -13rem;
-    background-color: #2d2a2a;
+    background-color: #1e1e1e;
     margin-left: auto;
     margin-right: auto;
     max-height: 70px;
@@ -223,7 +227,7 @@ span {
 }
 
 .dropbtn {
-    background-color: #2d2a2a;
+    background-color: #1e1e1e;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -246,7 +250,8 @@ span {
 }
 
 .dropdown-button:hover .dropbtn {
-    background-color: #af6b04;
+    background-color: #FCD926;
+    color: #000;
     border-radius: 8px;
 }
 
@@ -258,14 +263,14 @@ span {
     border-top: 10px solid transparent;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #af6b04;
+    border-bottom: 10px solid #FCD926;
 }
 
 .dropdown-content {
     margin-top: 0.5rem;
     display: none;
     position: absolute;
-    background-color: #af6b04;
+    background-color: #FCD926;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -273,7 +278,7 @@ span {
 }
 
 .dropdown-content a {
-    color: #fff;
+    color: #000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -308,14 +313,15 @@ span {
     border-radius: 0;
 }
 
-.dropdown-content a:hover {background-color: #d39308}
+.dropdown-content a:hover {background-color: #D19B3E}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #af6b04;
+    background-color: #FCD926;
+    color: #000;
     border-radius: 8px;
 }
 
@@ -338,7 +344,7 @@ span {
 }
 
 .container-cube {
-    background-color: #2d2a2a;
+    background-color: #1e1e1e;
     border-radius: 3px;
     align-items: center;
     margin-left: auto;
@@ -683,6 +689,10 @@ span {
 
     .img-logo-index {
         width: 300px;
+    }
+
+    body {
+        background-size: 100%;
     }
 }
 
