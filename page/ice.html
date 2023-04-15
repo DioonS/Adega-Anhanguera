@@ -8,19 +8,34 @@
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ee7e969a6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/cards.css">
     <title>Adega Anhanguera</title>
 </head>
 <body>
-    <div class="top-title">
-        <img src="../images/logo.png" alt="Adega Anhanguera" class="img-logo">
-    </div> <!-- .top-title -->
+    <div class="topBarSearch">
+        <div class="nav-logo">
+            <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <div class="inputSearch">
+            <div class="searchbar">
+                <div class="input-wrapper">
+                    <input type="text" name="" class="search" placeholder="Buscar..." required>
+
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <nav class="navigation">
         <div class="dropdown">
             <button class="dropbtn">Cerveja</button>
             <div class="dropdown-content">
-                <a href="fardo.html">Fardo</a>
+                <a href="fardo.html">Fardo</a> <!-- onmouseover="changeImage('fardo')" -->
                 <a href="unitario.html">Unitário</a>
+                <!--<img src="../images/amstel.png" class="dropdown-image" />-->
             </div>
         </div>
         <div class="dropdown">
@@ -34,9 +49,31 @@
             </div>
         </div>
         <div class="dropdown-button">
+            <button class="dropbtn">Gelos</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Vinhos</button>
+            <div class="dropdown-content">
+                <a href="#">Tinto</a>
+                <a href="#">Branco</a>
+                <a href="#">Rosé</a>
+            </div>
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">Destilados</button>
+            <div class="dropdown-content">
+                <a href="#">Cachaça</a>
+                <a href="#">Whisky</a>
+                <a href="#">Vodka</a>
+                <a href="#">Tequila</a>
+                <a href="#">Outros</a>
+            </div>
         </div>
     </nav> <!-- .navigation -->
+
+    <div class="top-title">
+        <img src="../images/logo.png" alt="Adega Anhanguera" class="img-logo">
+    </div> <!-- .top-title -->
 
     <div class="container-cube" style="min-width: 24rem;">
         <div class="title-container">
@@ -50,15 +87,15 @@
     <div class="container-cards">
         <div class="card-container ice-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://cf.shopee.com.br/file/2b85d13e4e9b8657dae97943cf369bfe" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://cf.shopee.com.br/file/2b85d13e4e9b8657dae97943cf369bfe" alt="51 Ice Sabores"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">51 Ice Sabores</h1>
+                <h3 style="text-align: center;">51 Ice Sabores</h3>
                 <p style="text-align: center;">Maracuja, Limão, Frutas Vermelhas, Citrus</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 7,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 7,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -77,15 +114,15 @@
         <!-- Segundo Card -->
         <div class="card-container ice-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://down-br.img.susercontent.com/file/sg-11134201-7qvdf-lepuh1inngq6ff" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://down-br.img.susercontent.com/file/sg-11134201-7qvdf-lepuh1inngq6ff" alt="Smirnoff"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Smirnoff</h1>
+                <h3 style="text-align: center;">Smirnoff</h3>
                 <p style="text-align: center;">Ice Tradicional</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 10,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 10,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -104,15 +141,15 @@
         <!-- Terceiro Card -->
         <div class="card-container ice-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkrekvEbpjADGDM_WQHaSvoRJgmnzposPlpw&usqp=CAU" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkrekvEbpjADGDM_WQHaSvoRJgmnzposPlpw&usqp=CAU" alt="Kislla"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Kislla</h1>
+                <h3 style="text-align: center;">Kislla</h3>
                 <p style="text-align: center;">Limão</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 4,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 4,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -131,15 +168,15 @@
         <!-- Quarto Card -->
         <div class="card-container ice-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://redemachado.com.br/arquivos/118812.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://redemachado.com.br/arquivos/118812.jpg" alt="Kissla Red Fruits"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Kissla Red Fruits</h1>
+                <h3 style="text-align: center;">Kissla Red Fruits</h3>
                 <p style="text-align: center;">Frutas Vermelhas</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 7,50 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 7,50 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>

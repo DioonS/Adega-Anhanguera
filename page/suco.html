@@ -8,19 +8,34 @@
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ee7e969a6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/cards.css">
     <title>Adega Anhanguera</title>
 </head>
 <body>
-    <div class="top-title">
-        <img src="../images/logo.png" alt="Adega Anhanguera" class="img-logo">
-    </div> <!-- .top-title -->
+    <div class="topBarSearch">
+        <div class="nav-logo">
+            <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <div class="inputSearch">
+            <div class="searchbar">
+                <div class="input-wrapper">
+                    <input type="text" name="" class="search" placeholder="Buscar..." required>
+
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <nav class="navigation">
         <div class="dropdown">
             <button class="dropbtn">Cerveja</button>
             <div class="dropdown-content">
-                <a href="fardo.html">Fardo</a>
+                <a href="fardo.html">Fardo</a> <!-- onmouseover="changeImage('fardo')" -->
                 <a href="unitario.html">Unitário</a>
+                <!--<img src="../images/amstel.png" class="dropdown-image" />-->
             </div>
         </div>
         <div class="dropdown">
@@ -34,9 +49,31 @@
             </div>
         </div>
         <div class="dropdown-button">
+            <button class="dropbtn">Gelos</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Vinhos</button>
+            <div class="dropdown-content">
+                <a href="#">Tinto</a>
+                <a href="#">Branco</a>
+                <a href="#">Rosé</a>
+            </div>
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">Destilados</button>
+            <div class="dropdown-content">
+                <a href="#">Cachaça</a>
+                <a href="#">Whisky</a>
+                <a href="#">Vodka</a>
+                <a href="#">Tequila</a>
+                <a href="#">Outros</a>
+            </div>
         </div>
     </nav> <!-- .navigation -->
+
+    <div class="top-title">
+        <img src="../images/logo.png" alt="Adega Anhanguera" class="img-logo">
+    </div> <!-- .top-title -->
 
     <div class="container-cube" style="min-width: 24rem;">
         <div class="title-container">
@@ -50,14 +87,14 @@
     <div class="container-cards">
         <div class="card-container suco-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://trimais.vteximg.com.br/arquivos/ids/1045023-1000-1000/foto_original.jpg?v=638131194972870000" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://trimais.vteximg.com.br/arquivos/ids/1045023-1000-1000/foto_original.jpg?v=638131194972870000" alt="Ades"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Ades</h1>
+                <h3 style="text-align: center;">Ades</h3>
                 <p style="text-align: center;">Abacaxi</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
                     <h2>R$ 9,00 </h2>
                 </div>
                 <div class="time-left">
@@ -77,14 +114,14 @@
         <!-- Segundo Card -->
         <div class="card-container suco-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://redehortimais.com/wp-content/uploads/2019/11/106.png" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://redehortimais.com/wp-content/uploads/2019/11/106.png" alt="Aurora"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Aurora</h1>
+                <h3 style="text-align: center;">Aurora</h3>
                 <p style="text-align: center;">Uva</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
                     <h2>R$ 17,00 </h2>
                 </div>
                 <div class="time-left">
@@ -104,14 +141,14 @@
         <!-- Terceiro Card -->
         <div class="card-container suco-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://giassi.vtexassets.com/arquivos/ids/516124/Nectar-Abacaxi-Del-Valle-Caixa-1l-.png?v=637995264113800000" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://giassi.vtexassets.com/arquivos/ids/516124/Nectar-Abacaxi-Del-Valle-Caixa-1l-.png?v=637995264113800000" alt="Del Valle"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Del Valle</h1>
+                <h3 style="text-align: center;">Del Valle</h3>
                 <p style="text-align: center;">Laranja, Uva, Abacaxi, Pessego, MAracuja, Caju, Goiaba e Manga</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
                     <h2>R$ 11,50 </h2>
                 </div>
                 <div class="time-left">
@@ -132,13 +169,13 @@
         <div class="card-container suco-container">
             <!--<a href="/" class="hero-image-container">-->
             <!--</a>-->
-            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/del-valle1-5da9ac0b24ee229f9215746861298517-640-0.png" alt="Spinning glass cube"/>
+            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/del-valle1-5da9ac0b24ee229f9215746861298517-640-0.png" alt="Del Valle"/>
             <main class="main-content">
-                <h1 style="text-align: center;">Del Valle</h1>
-                <p style="text-align: center;">Laranja, Uva, Abacaxi, Pessego, MAracuja, Caju, Goiaba e Manga</p>
+                <h3 style="text-align: center;">Del Valle</h3>
+                <p style="text-align: center;">Laranja, Uva, Abacaxi, Pessego, Maracuja, Caju, Goiaba e Manga</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
                     <h2>R$ 4,00 </h2>
                 </div>
                 <div class="time-left">
@@ -158,14 +195,14 @@
         <!-- Quinto Card -->
         <div class="card-container suco-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/thunders/catalog/suco/suco-nectar-maguary-1l-12-unidades-sabor-maracuja.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/thunders/catalog/suco/suco-nectar-maguary-1l-12-unidades-sabor-maracuja.jpg" alt="Maguary"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Maguary</h1>
+                <h3 style="text-align: center;">Maguary</h3>
                 <p style="text-align: center;">Maracuja, Uva, Caju e Goiaba</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
                     <h2>R$ 7,00 </h2>
                 </div>
                 <div class="time-left">

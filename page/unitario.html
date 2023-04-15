@@ -8,19 +8,34 @@
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ee7e969a6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/cards.css">
     <title>Adega Anhanguera</title>
 </head>
 <body>
-    <div class="top-title">
-        <img src="../images/logo.png" alt="Adega Anhanguera" class="img-logo">
-    </div> <!-- .top-title -->
+    <div class="topBarSearch">
+        <div class="nav-logo">
+            <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <div class="inputSearch">
+            <div class="searchbar">
+                <div class="input-wrapper">
+                    <input type="text" name="" class="search" placeholder="Buscar..." required>
+
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <nav class="navigation">
         <div class="dropdown">
             <button class="dropbtn">Cerveja</button>
             <div class="dropdown-content">
-                <a href="fardo.html">Fardo</a>
+                <a href="fardo.html">Fardo</a> <!-- onmouseover="changeImage('fardo')" -->
                 <a href="unitario.html">Unitário</a>
+                <!--<img src="../images/amstel.png" class="dropdown-image" />-->
             </div>
         </div>
         <div class="dropdown">
@@ -34,9 +49,31 @@
             </div>
         </div>
         <div class="dropdown-button">
+            <button class="dropbtn">Gelos</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Vinhos</button>
+            <div class="dropdown-content">
+                <a href="#">Tinto</a>
+                <a href="#">Branco</a>
+                <a href="#">Rosé</a>
+            </div>
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">Destilados</button>
+            <div class="dropdown-content">
+                <a href="#">Cachaça</a>
+                <a href="#">Whisky</a>
+                <a href="#">Vodka</a>
+                <a href="#">Tequila</a>
+                <a href="#">Outros</a>
+            </div>
         </div>
     </nav> <!-- .navigation -->
+
+    <div class="top-title">
+        <img src="../images/logo.png" alt="Adega Anhanguera" class="img-logo">
+    </div> <!-- .top-title -->
 
     <div class="container-cube" style="min-width: 24rem;">
         <div class="title-container">
@@ -50,15 +87,15 @@
     <div class="container-cards">
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://www.varanda.com.br/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/c/e/cerv-amstel-lt-269ml-7896045505319.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://www.varanda.com.br/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/c/e/cerv-amstel-lt-269ml-7896045505319.jpg" alt="Amstel"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Amstel</h1>
+                <h3 style="text-align: center;">Amstel</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 3,50 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 3,50 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -77,15 +114,15 @@
         <!-- Segundo Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://mfresh.s3.amazonaws.com/uploads/product/sku/18506/image/4ef2722a-2939-4bd2-a99b-1355bfad0afb.png" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://mfresh.s3.amazonaws.com/uploads/product/sku/18506/image/4ef2722a-2939-4bd2-a99b-1355bfad0afb.png" alt="Amstel"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Amstel</h1>
+                <h3 style="text-align: center;">Amstel</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 9,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 9,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -104,15 +141,15 @@
         <!-- Terceiro Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://cdn.b4c.inf.br/storage/acouguebg/1000/cerveja-amstel-puro-malte-lata-350-ml_1_1624110634.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://cdn.b4c.inf.br/storage/acouguebg/1000/cerveja-amstel-puro-malte-lata-350-ml_1_1624110634.jpg" alt="Amstel"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Amstel</h1>
+                <h3 style="text-align: center;">Amstel</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 4,50</h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 4,50</h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -132,14 +169,14 @@
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
             <!--</a>-->
-            <img class="hero-image" src="https://www.glutenpraque.com.br/wp-content/uploads/2022/05/15128153438_amstel.png" alt="Spinning glass cube"/>
+            <img class="hero-image" src="https://www.glutenpraque.com.br/wp-content/uploads/2022/05/15128153438_amstel.png" alt="Amstel Ultra"/>
             <main class="main-content">
-                <h1 style="text-align: center;">Amstel Ultra</h1>
+                <h3 style="text-align: center;">Amstel Ultra</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 24,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 24,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -158,15 +195,15 @@
         <!-- Quinto Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://a-static.mlcdn.com.br/1500x1500/cerveja-original-lata-269ml-fardo-com-8-unidades/giovaniltda/3385e95844eb11eca7c64201ac185039/9fbcca1c555e5315d3b64d583afcdf58.jpeg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://a-static.mlcdn.com.br/1500x1500/cerveja-original-lata-269ml-fardo-com-8-unidades/giovaniltda/3385e95844eb11eca7c64201ac185039/9fbcca1c555e5315d3b64d583afcdf58.jpeg" alt="Original"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Original</h1>
+                <h3 style="text-align: center;">Original</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 4,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 4,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -185,15 +222,15 @@
         <!-- Sexto Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://maringa.cidadecancao.com/media/catalog/product/cache/1/image/855x635/9df78eab33525d08d6e5fb8d27136e95/c/e/cerveja-antarctica-original-lata-350g-c12-7891991016001_4.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://maringa.cidadecancao.com/media/catalog/product/cache/1/image/855x635/9df78eab33525d08d6e5fb8d27136e95/c/e/cerveja-antarctica-original-lata-350g-c12-7891991016001_4.jpg" alt="Original"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Original</h1>
+                <h3 style="text-align: center;">Original</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 4,75 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 4,75 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -212,15 +249,15 @@
         <!-- Setimo Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://redemachado.com.br/arquivos/423974.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://redemachado.com.br/arquivos/423974.jpg" alt="Original Retornável"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Original Retornavel</h1>
-                <p style="text-align: center;"></p>
+                <h3 style="text-align: center;">Original</h3>
+                <p style="text-align: center;">Retornável</p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 4,50</h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 4,50</h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -239,15 +276,15 @@
         <!-- Oitavo Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://supernossoio.vtexassets.com/arquivos/ids/220923/Cerveja-IPA-Puro-Malte-Maracuja-Baden-Baden-350ml.jpg?v=637808132468500000" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://supernossoio.vtexassets.com/arquivos/ids/220923/Cerveja-IPA-Puro-Malte-Maracuja-Baden-Baden-350ml.jpg?v=637808132468500000" alt="Baden Baden Ipa"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Baden Baden Ipa</h1>
+                <h3 style="text-align: center;">Baden Baden Ipa</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 6,50 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 6,50 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -267,14 +304,14 @@
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
             <!--</a>-->
-            <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/192384-1000-1000/CERVEJA-BADEN-BADEN-WITBIER-LATA-350ML_0.jpg?v=637649734516270000" alt="Spinning glass cube"/>
+            <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/192384-1000-1000/CERVEJA-BADEN-BADEN-WITBIER-LATA-350ML_0.jpg?v=637649734516270000" alt="Baden Baden Witbier"/>
             <main class="main-content">
-                <h1 style="text-align: center;">Baden Baden Witbier</h1>
+                <h3 style="text-align: center;">Baden Baden Witbier</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 36,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 36,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -293,15 +330,15 @@
         <!-- Décimo Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://lojatopbirra.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/1/0/1097-large_default.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://lojatopbirra.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/1/0/1097-large_default.jpg" alt="Becks"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Becks</h1>
+                <h3 style="text-align: center;">Becks</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 42,00 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 42,00 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -320,15 +357,15 @@
         <!-- Décimo-Primeiro Card -->
         <div class="card-container unitario-container">
             <!--<a href="/" class="hero-image-container">-->
-                <img class="hero-image" src="https://teravirt.s3-accelerate.amazonaws.com/uploads/sites/95/2021/07/IMG33.png" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://teravirt.s3-accelerate.amazonaws.com/uploads/sites/95/2021/07/IMG33.png" alt="Becks Sleek LT"/>
             <!--</a>-->
             <main class="main-content">
-                <h1 style="text-align: center;">Becks Sleek LT</h1>
+                <h3 style="text-align: center;">Becks Sleek LT</h3>
                 <p style="text-align: center;"></p>
                 <div class="flex-row">
                 <div class="coin-base">
-                    <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                    <h2>R$ 5,50 </h2>
+                    <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                    <h4>R$ 5,50 </h4>
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -347,15 +384,15 @@
             <!-- Décimo-Segundo Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/beirario/media/uploads/produtos/foto/b3795ef5aef4bfile.png" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/beirario/media/uploads/produtos/foto/b3795ef5aef4bfile.png" alt="Brahma Chopp"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Chopp</h1>
+                    <h3 style="text-align: center;">Brahma Chopp</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 3,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 3,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -374,15 +411,15 @@
             <!-- Décimo-Terceiro Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://choppbrahmaexpress.vtexassets.com/arquivos/ids/155702/brahma-lata-350ml.jpg?v=637353454674430000" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://choppbrahmaexpress.vtexassets.com/arquivos/ids/155702/brahma-lata-350ml.jpg?v=637353454674430000" alt="Brahma Chopp"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Chopp</h1>
+                    <h3 style="text-align: center;">Brahma Chopp</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -401,15 +438,15 @@
             <!-- Décimo-Quarto Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://us-southeast-1.linodeobjects.com/storage/primo/media/uploads/produto/cerveja_brahma_chopp_retornavel_300ml_f7caff31-7d39-4564-9028-021cdc898ab3.png" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://us-southeast-1.linodeobjects.com/storage/primo/media/uploads/produto/cerveja_brahma_chopp_retornavel_300ml_f7caff31-7d39-4564-9028-021cdc898ab3.png" alt="Brahma Chopp Retornável"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Chopp</h1>
+                    <h3 style="text-align: center;">Brahma Chopp</h3>
                     <p style="text-align: center;">Retornável</p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -429,14 +466,14 @@
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
                 <!--</a>-->
-                <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-brahma-600-ml1-19c83909aa5e3aa4a415676924380455-640-0.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-brahma-600-ml1-19c83909aa5e3aa4a415676924380455-640-0.jpg" alt="Brahma Chopp Retornável"/>
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Chopp</h1>
+                    <h3 style="text-align: center;">Brahma Chopp</h3>
                     <p style="text-align: center;">Retornável</p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 9,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 9,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -455,15 +492,15 @@
             <!-- Décimo-Sexto Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://assets.vtex.app/unsafe/1020x930/center/middle/https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F30975754%2F6542433_1.jpg%3Fv%3D1767314879" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://assets.vtex.app/unsafe/1020x930/center/middle/https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F30975754%2F6542433_1.jpg%3Fv%3D1767314879" alt="Brahma Duplo Malte"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Duplo Malte</h1>
+                    <h3 style="text-align: center;">Brahma Duplo Malte</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,00 </h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,00 </h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -482,15 +519,15 @@
             <!-- Décimo-Sétimo Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/32341/medium/cerveja-brahma-350ml-puro-malte_80752.png" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/32341/medium/cerveja-brahma-350ml-puro-malte_80752.png" alt="Brahma Duplo Malte"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Duplo Malte</h1>
+                    <h3 style="text-align: center;">Brahma Duplo Malte</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -509,15 +546,15 @@
             <!-- Décimo-Oitavo Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://cdn.formulaexpress.com.br/img/p/1/9/7/197-large_default.jpg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://cdn.formulaexpress.com.br/img/p/1/9/7/197-large_default.jpg" alt="Brahma Duplo Malte"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Duplo Malte</h1>
+                    <h3 style="text-align: center;">Brahma Duplo Malte</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 9,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 9,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -536,15 +573,15 @@
             <!-- Décimo-Nono Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://tdc08h.vteximg.com.br/arquivos/ids/209979-1000-1000/Cerveja-Brahma-300ml-Duplo-Malte.jpg?v=638139884867770000" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://tdc08h.vteximg.com.br/arquivos/ids/209979-1000-1000/Cerveja-Brahma-300ml-Duplo-Malte.jpg?v=638139884867770000" alt="Brahma Duplo Malte"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Brahma Duplo Malte</h1>
+                    <h3 style="text-align: center;">Brahma Duplo Malte</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,00 </h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,00 </h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -563,15 +600,15 @@
             <!-- Vigésimo Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://ferrosdoces.fbitsstatic.net/img/p/cerveja-budweiser-lata-269ml-73331/259842-1.jpg?w=420&h=420&v=no-change&qs=ignore" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://ferrosdoces.fbitsstatic.net/img/p/cerveja-budweiser-lata-269ml-73331/259842-1.jpg?w=420&h=420&v=no-change&qs=ignore" alt="Budweiser"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Budweiser</h1>
+                    <h3 style="text-align: center;">Budweiser</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -590,15 +627,15 @@
             <!-- Vigésimo-Primeiro Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://coopsp.vtexassets.com/arquivos/ids/214431-800-auto?v=637919521536900000&width=800&height=auto&aspect=true" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://coopsp.vtexassets.com/arquivos/ids/214431-800-auto?v=637919521536900000&width=800&height=auto&aspect=true" alt="Budweiser"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Budweiser</h1>
+                    <h3 style="text-align: center;">Budweiser</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -617,15 +654,15 @@
             <!-- Vigésimo-Segundo Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://cdn.b4c.inf.br/storage/acouguebg/1000/cerveja-budweiser-long-neck-330-ml_1_1627743158.jpg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://cdn.b4c.inf.br/storage/acouguebg/1000/cerveja-budweiser-long-neck-330-ml_1_1627743158.jpg" alt="Budweiser"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Budweiser</h1>
+                    <h3 style="text-align: center;">Budweiser</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 7,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 7,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -644,15 +681,15 @@
             <!-- Vigésimo-Terceiro Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://ibassets.com.br/ib.item.image.big/b-cedd045f6ac24059b9ccf214c0f32ae2.jpeg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://ibassets.com.br/ib.item.image.big/b-cedd045f6ac24059b9ccf214c0f32ae2.jpeg" alt="Budweiser Zero Álcool"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Budweiser Zero Álcool</h1>
+                    <h3 style="text-align: center;">Budweiser Zero Álcool</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 4,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 4,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -671,15 +708,15 @@
             <!-- Vigésimo-Quarto Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://tb1304.vtexassets.com/arquivos/ids/197770/CERVEJA-CABARE-PURO-MALTE-LONG-NECK-330ML.jpg?v=638143293801700000" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://tb1304.vtexassets.com/arquivos/ids/197770/CERVEJA-CABARE-PURO-MALTE-LONG-NECK-330ML.jpg?v=638143293801700000" alt="Cabaré"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Cabaré</h1>
+                    <h3 style="text-align: center;">Cabaré</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 7,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 7,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -698,15 +735,15 @@
             <!-- Vigésimo-Quinto Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/207634-292-292/7897395001247.jpg?v=637862332093730000" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/207634-292-292/7897395001247.jpg?v=637862332093730000" alt="Cabaré Puro Malte"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Cabaré Puro Malte</h1>
+                    <h3 style="text-align: center;">Cabaré Puro Malte</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 5,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 5,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -725,15 +762,15 @@
             <!-- Vigésimo-Sexto Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://antenorefilhos.com.br/orcamento/wp-content/uploads/2021/09/Cerveja-Artesanal-Cidade-Imperial-Long-Neck-330ml-Pilsen.jpg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://antenorefilhos.com.br/orcamento/wp-content/uploads/2021/09/Cerveja-Artesanal-Cidade-Imperial-Long-Neck-330ml-Pilsen.jpg" alt="Cidade Imperial"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Cidade Imperial</h1>
+                    <h3 style="text-align: center;">Cidade Imperial</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 7,00</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 7,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -752,15 +789,15 @@
             <!-- Vigésimo-Sétimo Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://emporiodacerveja.vtexassets.com/arquivos/ids/179421/Appia_350.jpg?v=637559192877430000" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://emporiodacerveja.vtexassets.com/arquivos/ids/179421/Appia_350.jpg?v=637559192877430000" alt="Colorado Appia LT Sleck"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Colorado Appia LT Sleck</h1>
+                    <h3 style="text-align: center;">Colorado Appia LT Sleck</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 6,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 6,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -780,14 +817,14 @@
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
                 <!--</a>-->
-                <img class="hero-image" src="https://a-static.mlcdn.com.br/1500x1500/cerveja-colorado-ribeirao-lager-lager-12-unidades-long-neck-355ml/uniaobebidasestancia/d3abc706eb1f11ec92e14201ac185078/0e142ab3b8e5e61af01a972b3247db6d.jpg" alt="Spinning glass cube"/>
+                <img class="hero-image" src="https://a-static.mlcdn.com.br/1500x1500/cerveja-colorado-ribeirao-lager-lager-12-unidades-long-neck-355ml/uniaobebidasestancia/d3abc706eb1f11ec92e14201ac185078/0e142ab3b8e5e61af01a972b3247db6d.jpg" alt="Colorado Lager"/>
                 <main class="main-content">
-                    <h1 style="text-align: center;">Colorado Lager</h1>
+                    <h3 style="text-align: center;">Colorado Lager</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 7,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 7,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -806,15 +843,15 @@
             <!-- Trigésimo Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/203105-600-600/7dda5eb057499bcb66c6036b07202810_cerveja-colorado-ribeirao-lager-sleek-350ml_lett_1.jpg?v=637686080084600000" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/203105-600-600/7dda5eb057499bcb66c6036b07202810_cerveja-colorado-ribeirao-lager-sleek-350ml_lett_1.jpg?v=637686080084600000" alt="Colorado Lager LT Sleek"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Colorado Lager LT Sleek</h1>
+                    <h3 style="text-align: center;">Colorado Lager LT Sleek</h3>
                     <p style="text-align: center;"></p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 6,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 6,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -833,15 +870,15 @@
             <!-- Trigésimo-Primeiro Card -->
             <div class="card-container unitario-container">
                 <!--<a href="/" class="hero-image-container">-->
-                    <img class="hero-image" src="https://a-static.mlcdn.com.br/1500x1500/cerveja-corona-coronita-extra-lager-6-unidades-long-neck-210ml/magazineluiza/226721100/89b29be45540185586d45dd72f000a89.jpg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://a-static.mlcdn.com.br/1500x1500/cerveja-corona-coronita-extra-lager-6-unidades-long-neck-210ml/magazineluiza/226721100/89b29be45540185586d45dd72f000a89.jpg" alt="Corona"/>
                 <!--</a>-->
                 <main class="main-content">
-                    <h1 style="text-align: center;">Corona</h1>
+                    <h3 style="text-align: center;">Corona</h3>
                     <p style="text-align: center;">6 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
-                        <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                        <h2>R$ 5,50</h2>
+                        <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                        <h4>R$ 5,50</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -860,15 +897,15 @@
                 <!-- Trigésimo-Segundo Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://marmoreio.com.br/wp-content/uploads/2020/05/corona-long-neck-Copia-2.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://marmoreio.com.br/wp-content/uploads/2020/05/corona-long-neck-Copia-2.jpg" alt="Corona"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Corona</h1>
+                        <h3 style="text-align: center;">Corona</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 7,50</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 7,50</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -887,15 +924,15 @@
                 <!-- Trigésimo-Terceiro Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://ibassets.com.br/ib.item.image.medium/m-57a0906d115d48eaba986ed437c87af4.jpeg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://ibassets.com.br/ib.item.image.medium/m-57a0906d115d48eaba986ed437c87af4.jpeg" alt="Eisenbahn"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Eisenbahn</h1>
+                        <h3 style="text-align: center;">Eisenbahn</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 4,00</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 4,00</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -914,15 +951,15 @@
                 <!-- Trigésimo-Quarto Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/eisenbahn-pilsen-lata-350-ml1-0f70f5d5d9e8e9378a15676904024081-640-0.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/eisenbahn-pilsen-lata-350-ml1-0f70f5d5d9e8e9378a15676904024081-640-0.jpg" alt="Eisenbahn"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Eisenbahn</h1>
+                        <h3 style="text-align: center;">Eisenbahn</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 4,50</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 4,50</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -942,14 +979,14 @@
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
                     <!--</a>-->
-                    <img class="hero-image" src="https://img.megaboxatacado.com.br/produto/1000X1000/201762_86800.jpg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://img.megaboxatacado.com.br/produto/1000X1000/201762_86800.jpg" alt="Eisenbahn Pilsen Retornável"/>
                     <main class="main-content">
-                        <h1 style="text-align: center;">Eisenbahn Pilsen</h1>
+                        <h3 style="text-align: center;">Eisenbahn Pilsen</h3>
                         <p style="text-align: center;">Retornável</p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 9,00</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 9,00</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -968,15 +1005,15 @@
                 <!-- Trigésimo-Sexto Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://deskontao.agilecdn.com.br/13400_1.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://deskontao.agilecdn.com.br/13400_1.jpg" alt="Eisenbahn Pilsen"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Eisenbahn Pilsen</h1>
+                        <h3 style="text-align: center;">Eisenbahn Pilsen</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 7,00</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 7,00</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -995,15 +1032,15 @@
                 <!-- Trigésimo-Sétimo Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/196689-1000-1000/2107937.jpg?v=637781138904400000" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/196689-1000-1000/2107937.jpg?v=637781138904400000" alt="Heineken 0,0%"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Heineken 0,0%</h1>
+                        <h3 style="text-align: center;">Heineken 0,0%</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 5,50</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 5,50</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1022,15 +1059,15 @@
                 <!-- Trigésimo-Oitavo Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/34336/medium/cerveja-heineken-330ml-lneck-00_82978.png" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/34336/medium/cerveja-heineken-330ml-lneck-00_82978.png" alt="Heineken 0,0%"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Heneken 0,0%</h1>
+                        <h3 style="text-align: center;">Heneken 0,0%</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 7,80</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 7,80</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1049,15 +1086,15 @@
                 <!-- Trigésimo-Nono Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-heineken-600-ml1-b4723f8fa38b73d53b15676918580599-640-0.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-heineken-600-ml1-b4723f8fa38b73d53b15676918580599-640-0.jpg" alt="Heineken"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Heineken</h1>
+                        <h3 style="text-align: center;">Heineken</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 12,00</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 12,00</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1076,15 +1113,15 @@
                 <!-- Quadragésimo Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://media.cotabest.com.br/media/sku/cerveja-lata-269ml-heineken-un.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://media.cotabest.com.br/media/sku/cerveja-lata-269ml-heineken-un.jpg" alt="Heineken"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Heineken</h1>
+                        <h3 style="text-align: center;">Heineken</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 4,50 </h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 4,50 </h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1103,15 +1140,15 @@
                 <!-- Quadragésimo-Primeiro Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://static.paodeacucar.com/img/uploads/1/623/17634623.png" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://static.paodeacucar.com/img/uploads/1/623/17634623.png" alt="Heineken"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Heineken</h1>
+                        <h3 style="text-align: center;">Heineken</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 5,50</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 5,50</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1130,15 +1167,15 @@
                 <!-- Quadragésimo-Segundo Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://media.cotabest.com.br/media/sku/cerveja-long-neck-330ml-heineken-un-8b3583dd66.jfif" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://media.cotabest.com.br/media/sku/cerveja-long-neck-330ml-heineken-un-8b3583dd66.jfif" alt="Heineken"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Heineken</h1>
+                        <h3 style="text-align: center;">Heineken</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 7,50</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 7,50</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1158,14 +1195,14 @@
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
                     <!--</a>-->
-                    <img class="hero-image" src="https://a-static.mlcdn.com.br/800x560/cerveja-hoegaarden-wit-blanche-belga-witbier-long-neck-330ml/magazineluiza/230649600/1a2a9ca070945ef218bb6fe8e04adbf8.jpg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://a-static.mlcdn.com.br/800x560/cerveja-hoegaarden-wit-blanche-belga-witbier-long-neck-330ml/magazineluiza/230649600/1a2a9ca070945ef218bb6fe8e04adbf8.jpg" alt="Hoegarden"/>
                     <main class="main-content">
-                        <h1 style="text-align: center;">Hoegarden</h1>
+                        <h3 style="text-align: center;">Hoegarden</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 8,00 </h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 8,00 </h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1184,15 +1221,15 @@
                 <!-- Quadragésimo-Quarto Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://ibassets.com.br/ib.item.image.big/b-462bd7af75784a2dae5bda415ae9e081.jpeg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://ibassets.com.br/ib.item.image.big/b-462bd7af75784a2dae5bda415ae9e081.jpeg" alt="Império"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Império</h1>
+                        <h3 style="text-align: center;">Império</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 3,00</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 3,00</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1211,15 +1248,15 @@
                 <!-- Quadragésimo-Quinto Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://ibassets.com.br/ib.item.image.large/l-182f2390a8114d2a8a9d4ff3e5426f56.jpeg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://ibassets.com.br/ib.item.image.large/l-182f2390a8114d2a8a9d4ff3e5426f56.jpeg" alt="Império"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Império</h1>
+                        <h3 style="text-align: center;">Império</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 4,00 </h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 4,00 </h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1238,15 +1275,15 @@
                 <!-- Quadragésimo-Sexto Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/22783/medium/cerveja-imperio-gold-long-neck-210ml_72047.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/22783/medium/cerveja-imperio-gold-long-neck-210ml_72047.jpg" alt="Império"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Império</h1>
+                        <h3 style="text-align: center;">Império</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 5,00</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 5,00</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1265,15 +1302,15 @@
                 <!-- Quadragésimo-Sétimo Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/987207.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/987207.jpg" alt="Itaipava"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Itaipava</h1>
+                        <h3 style="text-align: center;">Itaipava</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 2,75</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 2,75</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1293,14 +1330,14 @@
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
                     <!--</a>-->
-                    <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-itaipava-lata-350-ml1-9f980de297418c3e1115676906791219-640-0.jpg" alt="Spinning glass cube"/>
+                    <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-itaipava-lata-350-ml1-9f980de297418c3e1115676906791219-640-0.jpg" alt="Itaipava"/>
                     <main class="main-content">
-                        <h1 style="text-align: center;">Itaipava</h1>
+                        <h3 style="text-align: center;">Itaipava</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 3,00</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 3,00</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1319,15 +1356,15 @@
                 <!-- Quadragésimo-Nono Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/986831-1.jpg" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/986831-1.jpg" alt="Itaipava"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Itaipava</h1>
+                        <h3 style="text-align: center;">Itaipava</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 3,50</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 3,50</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1346,15 +1383,15 @@
                 <!-- Quinquagésimo-Primeiro Card -->
                 <div class="card-container unitario-container">
                     <!--<a href="/" class="hero-image-container">-->
-                        <img class="hero-image" src="https://emporiodacerveja.vtexassets.com/arquivos/ids/181719/patagonia_ipa_suada.jpg?v=637783664230170000" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://emporiodacerveja.vtexassets.com/arquivos/ids/181719/patagonia_ipa_suada.jpg?v=637783664230170000" alt="Patagonia"/>
                     <!--</a>-->
                     <main class="main-content">
-                        <h1 style="text-align: center;">Patagonia</h1>
+                        <h3 style="text-align: center;">Patagonia</h3>
                         <p style="text-align: center;"></p>
                         <div class="flex-row">
                         <div class="coin-base">
-                            <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                            <h2>R$ 6,50</h2>
+                            <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                            <h4>R$ 6,50</h4>
                         </div>
                         <div class="time-left">
                             <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1373,15 +1410,15 @@
                     <!-- Quinquagésimo-Segundo Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/1615581147194_big.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/1615581147194_big.jpg" alt="Petra"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Petra</h1>
+                            <h3 style="text-align: center;">Petra</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 3,50</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 3,50</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1400,15 +1437,15 @@
                     <!-- Quinquagésimo-Terceiro Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/975077.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/975077.jpg" alt="Petra"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Petra</h1>
+                            <h3 style="text-align: center;">Petra</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 4,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 4,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1427,15 +1464,15 @@
                     <!-- Quinquagésimo-Quarto Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/198512-1000-1000/3d4178201f906d5292c39805fb47b34c_cerveja-skol-lata-269ml_lett_1.jpg?v=637886498113330000" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/198512-1000-1000/3d4178201f906d5292c39805fb47b34c_cerveja-skol-lata-269ml_lett_1.jpg?v=637886498113330000" alt="Skol"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Skol</h1>
+                            <h3 style="text-align: center;">Skol</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 3,25</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 3,25</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1455,14 +1492,14 @@
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
                         <!--</a>-->
-                        <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/208137-600-600/eedfbc4b6e97840ceac8180777abbbe8_cerveja-skol-350ml--lata-_lett_1.jpg?v=637898701173670000" alt="Spinning glass cube"/>
+                        <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/208137-600-600/eedfbc4b6e97840ceac8180777abbbe8_cerveja-skol-350ml--lata-_lett_1.jpg?v=637898701173670000" alt="Skol"/>
                         <main class="main-content">
-                            <h1 style="text-align: center;">Skol</h1>
+                            <h3 style="text-align: center;">Skol</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 4,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 4,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1481,15 +1518,15 @@
                     <!-- Quinquagésimo-Sexto Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/198520-1000-1000/5678b0b781f106eddac25067301d652f_bebida-mista-skol-beats-senses-lata-269ml_lett_1.jpg?v=637886498346300000" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://hiperideal.vteximg.com.br/arquivos/ids/198520-1000-1000/5678b0b781f106eddac25067301d652f_bebida-mista-skol-beats-senses-lata-269ml_lett_1.jpg?v=637886498346300000" alt="Skol Beats"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Skol Beats</h1>
+                            <h3 style="text-align: center;">Skol Beats</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 5,75</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 5,75</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1508,15 +1545,15 @@
                     <!-- Quinquagésimo-Sétimo Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-skol-beats-senses-long-neck-313-ml1-69169a9a9db015c13215676910286258-640-0.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-skol-beats-senses-long-neck-313-ml1-69169a9a9db015c13215676910286258-640-0.jpg" alt="Skol Beats"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Skol Beats</h1>
+                            <h3 style="text-align: center;">Skol Beats</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 7,75</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 7,75</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1535,15 +1572,15 @@
                     <!-- Quinquagésimo-Oitavo Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/208142-600-600/e6ceb503c83142a2297861b8bcbfb7bb_cerveja-skol-473ml--lata-_lett_1.jpg?v=637898701603630000" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://superprix.vteximg.com.br/arquivos/ids/208142-600-600/e6ceb503c83142a2297861b8bcbfb7bb_cerveja-skol-473ml--lata-_lett_1.jpg?v=637898701603630000" alt="Skol"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Skol</h1>
+                            <h3 style="text-align: center;">Skol</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 6,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 6,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1562,15 +1599,15 @@
                     <!-- Quinquagésimo-Nono Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-skol-300-ml1-f1321ec8d2f3b8a05615676911719089-640-0.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-skol-300-ml1-f1321ec8d2f3b8a05615676911719089-640-0.jpg" alt="Skol Retornável"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Skol</h1>
+                            <h3 style="text-align: center;">Skol</h3>
                             <p style="text-align: center;">Retornável</p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 4,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 4,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1589,15 +1626,15 @@
                     <!-- Sextuagésimo Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-skol-600-ml1-c0692bb54601c9f20215676919052972-640-0.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/cerveja-skol-600-ml1-c0692bb54601c9f20215676919052972-640-0.jpg" alt="Skol Retornável"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Skol</h1>
+                            <h3 style="text-align: center;">Skol</h3>
                             <p style="text-align: center;">Retornável</p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 8,50</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 8,50</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1616,15 +1653,15 @@
                     <!-- Sextuagésimo-Primeiro Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/40408/medium/cerveja-spaten-350ml-lt-sleek_93221.png" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/40408/medium/cerveja-spaten-350ml-lt-sleek_93221.png" alt="Spaten"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Spaten</h1>
+                            <h3 style="text-align: center;">Spaten</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 4,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 4,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1643,15 +1680,15 @@
                     <!-- Sextuagésimo-Segundo Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/40408/medium/cerveja-spaten-350ml-lt-sleek_93221.png" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/40408/medium/cerveja-spaten-350ml-lt-sleek_93221.png" alt="Spaten"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Spaten</h1>
+                            <h3 style="text-align: center;">Spaten</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 4,50</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 4,50</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1670,15 +1707,15 @@
                     <!-- Sextuagésimo-Terceiro Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://media.cotabest.com.br/media/sku/cerveja-garrafa-nao-retornavel-600ml-spaten-un.png" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://media.cotabest.com.br/media/sku/cerveja-garrafa-nao-retornavel-600ml-spaten-un.png" alt="Spaten Retornável"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Spaten</h1>
+                            <h3 style="text-align: center;">Spaten</h3>
                             <p style="text-align: center;">Retornável</p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 10,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 10,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1697,15 +1734,15 @@
                     <!-- Sextuagésimo-Quarto Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://images-americanas.b2w.io/produtos/47346718/imagens/cerveja-stella-artois-long-neck-275ml/47346715_1_large.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://images-americanas.b2w.io/produtos/47346718/imagens/cerveja-stella-artois-long-neck-275ml/47346715_1_large.jpg" alt="Stella Artóis"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Stella Artois</h1>
+                            <h3 style="text-align: center;">Stella Artóis</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 6,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 6,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1724,15 +1761,15 @@
                     <!-- Sextuagésimo-Quinto Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://choppbrahmaexpress.vtexassets.com/arquivos/ids/157766/16a14bdf0f30570aece573010894803b_cerveja-stella-artois-puro-malte-330ml-long-neck_lett_1.jpg?v=638086338791700000" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://choppbrahmaexpress.vtexassets.com/arquivos/ids/157766/16a14bdf0f30570aece573010894803b_cerveja-stella-artois-puro-malte-330ml-long-neck_lett_1.jpg?v=638086338791700000" alt="Stella Artóis"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Stella Artois</h1>
+                            <h3 style="text-align: center;">Stella Artóis</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 7,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 7,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1751,15 +1788,15 @@
                     <!-- Sextuagésimo-Sexto Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://www.extraplus.com.br/uploads/produtos/350x350/177391_extrabom_cerveja-therezopolis-gold-lager-premium-long-neck-355ml.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://www.extraplus.com.br/uploads/produtos/350x350/177391_extrabom_cerveja-therezopolis-gold-lager-premium-long-neck-355ml.jpg" alt="Therezópolis Gold Lager"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Therezópolis Gold Lager </h1>
+                            <h3 style="text-align: center;">Therezópolis Gold Lager</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 6,00</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 6,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1778,15 +1815,15 @@
                     <!-- Sextuagésimo-Sétimo Card -->
                     <div class="card-container unitario-container">
                         <!--<a href="/" class="hero-image-container">-->
-                            <img class="hero-image" src="https://lojaqui.com.br/images/produtos/site/65327.jpg" alt="Spinning glass cube"/>
+                            <img class="hero-image" src="https://lojaqui.com.br/images/produtos/site/65327.jpg" alt="Therezópolis Gold"/>
                         <!--</a>-->
                         <main class="main-content">
-                            <h1 style="text-align: center;">Therezópolis Gold</h1>
+                            <h3 style="text-align: center;">Therezópolis Gold</h3>
                             <p style="text-align: center;"></p>
                             <div class="flex-row">
                             <div class="coin-base">
-                                <img src="../images/cifrao.webp" alt="Ethereum" class="small-image"/>
-                                <h2>R$ 4,50</h2>
+                                <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
+                                <h4>R$ 4,50</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>

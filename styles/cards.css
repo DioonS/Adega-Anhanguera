@@ -1,0 +1,882 @@
+/**********************************/
+/* 1. Container Cards
+/* 2. Components Card
+/* 3. Small Images
+/* 4. Responsive Cards
+/* 5. Card Size
+/**********************************/
+
+/**********************************/
+/* 1. Container Cards
+/**********************************/
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top: 3.5rem;
+}
+
+.card-container {
+    width: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+
+    min-width: 250px;
+    max-width: 250px;
+    margin: .8em auto;
+    background-color: var(--var-card-dark);
+    border-radius: 15px;
+    padding: 2rem;
+    height: auto;
+
+    box-sizing: border-box;
+
+    /*border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #f7d488, #ea6f3d) 2;
+    background-clip: padding-box;*/
+
+    box-shadow: 0 0 0 1px #D19B3E, 0 0 0 2px #FCD926;
+}
+
+/**********************************/
+/* 2. Components Card
+/**********************************/
+
+div.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.coin-base, .time-left, .card-attribute {
+    display: flex;
+    align-items: center;
+    padding: .8em 0;
+}
+
+.card-attribute {
+    padding-bottom: 1.5em;
+    border-top: 2px solid #D19B3E;
+}
+
+.card-attribute p {
+    margin-top: -.3rem;
+}
+
+.main-content h3{
+    margin-top: .8rem;
+    margin-bottom: .9rem;
+    font-size: 18px;
+    font-family: 'Quicksand';
+}
+
+.main-content p {
+    margin-bottom: 0.9em;
+    margin-top: -1rem;
+    font-size: 10px;
+}
+
+.coin-base {
+    margin-top: -1rem;
+}
+
+.time-left {
+    margin-top: -1rem;
+}
+
+.coin-base h4 {
+    font-size: 12px;
+    font-family: 'Quicksand';
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.time-left p {
+    font-size: 10px;
+    margin-top: .7rem;
+}
+
+.card-attribute {
+    margin-top: -1em;
+}
+
+.card-attribute img{
+    width: 28px;
+}
+
+.card-attribute p {
+    font-size: 12px;
+}
+
+.card-attribute a{
+    font-size: 12px;
+}
+
+/**********************************/
+/* 3. Small Images 
+/**********************************/
+
+.small-image {
+    width: 1.2em;
+    margin-right: .5em;
+}
+
+.small-avatar {
+    width: 1.8em;
+    border-radius: 200px;
+    outline: 2px solid white;
+    margin-right: 1.4em;
+}
+
+/**********************************/
+/* 4. Responsive Cards
+/**********************************/
+
+.ice-container{
+        height: 380px;
+    }
+
+.suco-container {
+    height: 400px;
+}
+.suco-container:last-child {
+    height: 370px;
+}
+
+.energetico-container{
+    height: 420px;
+}
+
+.agua-container{
+    height: 370px;
+}
+
+.refrigerante-container{
+    height: 400px;
+}
+
+.fardos-container{
+    height: 440px;
+}
+
+.unitario-container{
+    height: 400px;
+}
+
+@media (min-width:600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:400px) {
+    img.eye {
+    max-width: 3em;
+    }
+}
+
+/**********************************/
+/* 4. Card Size
+/**********************************/
+
+@media (max-width:767px) {
+    .ice-container:first-child {
+        height: 400px;
+    }
+
+    .ice-container:nth-child(2) {
+        height: 380px;
+    }
+
+    .ice-container:nth-child(3) {
+        height: 350px;
+    }
+
+    .ice-container:last-child {
+        height: 380px;
+    }
+
+    .suco-container:first-child {
+        height: 380px;
+    }
+
+    .suco-container:nth-child(2) {
+        height: 380px;
+    }
+
+    .suco-container:nth-child(3) {
+        height: 390px;
+    }
+
+    .suco-container:nth-child(4) {
+        height: 400px;
+    }
+
+    .suco-container:last-child {
+        height: 380px;
+    }
+
+    .energetico-container:first-child {
+        height: 380px;
+    }
+
+    .energetico-container:nth-child(2) {
+        height: 380px;
+    }
+
+    .energetico-container:nth-child(3) {
+        height: 380px;
+    }
+
+    .energetico-container:nth-child(4) {
+        height: 380px;
+    }
+
+    .energetico-container:nth-child(5) {
+        height: 380px;
+    }
+
+    .energetico-container:nth-child(6) {
+        height: 380px;
+    }
+
+    .energetico-container:nth-child(7) {
+        height: 420px;
+    }
+
+    .energetico-container:nth-child(8) {
+        height: 390px;
+    }
+
+    .energetico-container:nth-child(9) {
+        height: 380px;
+    }
+
+    .energetico-container:nth-child(10) {
+        height: 410px;
+    }
+
+    .energetico-container:last-child {
+        height: 380px;
+    }
+
+    .agua-container:first-child {
+        height: 380px;
+    }
+
+    .agua-container:nth-child(2) {
+        height: 380px;
+    }
+
+    .agua-container:nth-child(3) {
+        height: 360px;
+    }
+
+    .agua-container:nth-child(4) {
+        height: 360px;
+    }
+
+    .agua-container:last-child {
+        height: 360px;
+    }
+
+
+    .refrigerante-container:first-child {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(2) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(3) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(4) {
+        height: 310px;
+    }
+
+    .refrigerante-container:nth-child(5) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(6) {
+        height: 380px;
+    }
+
+    .refrigerante-container:nth-child(7) {
+        height: 380px;
+    }
+
+    .refrigerante-container:nth-child(8) {
+        height: 380px;
+    }
+
+    .refrigerante-container:nth-child(9) {
+        height: 380px;
+    }
+
+    .refrigerante-container:nth-child(10) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(11) {
+        height: 310px;
+    }
+
+    .refrigerante-container:nth-child(12) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(13) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(14) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(15) {
+        height: 380px;
+    }
+
+    .refrigerante-container:nth-child(16) {
+        height: 380px;
+    }
+
+    .refrigerante-container:nth-child(17) {
+        height: 360px;
+    }
+
+    .refrigerante-container:nth-child(18) {
+        height: 380px;
+    }
+
+    .refrigerante-container:last-child {
+        height: 380px;
+    }
+
+    .fardos-container:first-child {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(2) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(3) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(4) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(5) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(6) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(7) {
+        height: 430px;
+    }
+
+    .fardos-container:nth-child(8) {
+        height: 340px;
+    }
+
+    .fardos-container:nth-child(9) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(10) {
+        height: 400px;
+    }
+
+    .fardos-container:nth-child(11) {
+        height: 350px;
+    }
+
+    .fardos-container:nth-child(12) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(13) {
+        height: 320px;
+    }
+
+    .fardos-container:nth-child(14) {
+        height: 400px;
+    }
+
+    .fardos-container:nth-child(15) {
+        height: 400px;
+    }
+
+    .fardos-container:nth-child(16) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(17) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(18) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(19) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(20) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(21) {
+        height: 350px;
+    }
+
+    .fardos-container:nth-child(22) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(23) {
+        height: 320px;
+    }
+
+    .fardos-container:nth-child(24) {
+        height: 400px;
+    }
+
+    .fardos-container:nth-child(25) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(26) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(27) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(28) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(29) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(30) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(31) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(32) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(33) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(34) {
+        height: 440px;
+    }
+
+    .fardos-container:nth-child(35) {
+        height: 345px;
+    }
+
+    .fardos-container:nth-child(36) {
+        height: 375px;
+    }
+
+    .fardos-container:nth-child(37) {
+        height: 345px;
+    }
+
+    .fardos-container:nth-child(38) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(39) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(40) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(41) {
+        height: 340px;
+    }
+
+    .fardos-container:nth-child(42) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(43) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(44) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(45) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(46) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(47) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(48) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(49) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(50) {
+        height: 350px;
+    }
+
+    .fardos-container:nth-child(51) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(52) {
+        height: 340px;
+    }
+
+    .fardos-container:nth-child(53) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(54) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(55) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(56) {
+        height: 340px;
+    }
+
+    .fardos-container:nth-child(57) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(58) {
+        height: 330px;
+    }
+
+    .fardos-container:nth-child(59) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(60) {
+        height: 380px;
+    }
+
+    .fardos-container:nth-child(61) {
+        height: 440px;
+    }
+
+    .fardos-container:nth-child(62) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(63) {
+        height: 390px;
+    }
+
+    .fardos-container:nth-child(64) {
+        height: 390px;
+    }
+
+    .fardos-container:last-child {
+        height: 380px;
+    }
+
+    .unitario-container:first-child {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(2) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(3) {
+        height: 300px;
+    }
+
+    .unitario-container:nth-child(4) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(5) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(6) {
+        height: 310px;
+    }
+
+    .unitario-container:nth-child(7) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(8) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(9) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(10) {
+        height: 380px;
+    }
+
+    .unitario-container:nth-child(11) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(12) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(13) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(14) {
+        height: 380px;
+    }
+
+    .unitario-container:nth-child(15) {
+        height: 390px;
+    }
+
+    .unitario-container:nth-child(16) {
+        height: 350px;
+    }
+
+    .unitario-container:nth-child(17) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(18) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(19) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(20) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(21) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(22) {
+        height: 300px;
+    }
+
+    .unitario-container:nth-child(23) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(24) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(25) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(26) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(27) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(28) {
+        height: 310px;
+    }
+
+    .unitario-container:nth-child(29) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(30) {
+        height: 330px;
+    }
+
+    .unitario-container:nth-child(31) {
+        height: 310px;
+    }
+
+    .unitario-container:nth-child(32) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(33) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(34) {
+        height: 380px;
+    }
+
+    .unitario-container:nth-child(35) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(36) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(37) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(38) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(39) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(40) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(41) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(42) {
+        height: 320px;
+    }
+
+    .unitario-container:nth-child(43) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(44) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(45) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(46) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(47) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(48) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(49) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(50) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(51) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(52) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(53) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(54) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(55) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(56) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(57) {
+        height: 380px;
+    }
+
+    .unitario-container:nth-child(58) {
+        height: 380px;
+    }
+
+    .unitario-container:nth-child(59) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(60) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(61) {
+        height: 380px;
+    }
+
+    .unitario-container:nth-child(62) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(63) {
+        height: 360px;
+    }
+
+    .unitario-container:nth-child(64) {
+        height: 360px;
+    }
+
+    .unitario-container:last-child {
+        height: 360px;
+    }
+}
