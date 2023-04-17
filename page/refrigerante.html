@@ -8,10 +8,66 @@
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ee7e969a6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/cards.css">
     <title>Adega Anhanguera</title>
 </head>
 <body>
+    <div class="container-menu">
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div> <!--.hamburguer-->
+
+        <asside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="../index.html" class="menu-link">Home</a></li>
+                    <li class="menu-item has-submenu submenu-beer"><a href="#" class="menu-link">Cervejas</a>
+                        <ul class="submenu">
+                            <li><a href="fardo.html">Fardo</a></li>
+                            <li><a href="unitario.html">Unitário</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu submenu-several"><a href="#" class="menu-link">Diversos</a>
+                        <ul class="submenu">
+                            <li><a href="refrigerante.html">Refrigerantes</a></li>
+                            <li><a href="suco.html">Sucos</a></li>
+                            <li><a href="agua.html">Água</a></li>
+                            <li><a href="energetico.html">Energéticos</a></li>
+                            <li><a href="ice.html">Ice</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="#" class="menu-link">Gelos</a></li>
+                    <li class="menu-item has-submenu submenu-wines"><a href="#" class="menu-link">Vinhos</a>
+                        <ul class="submenu">
+                            <li><a href="#">Tinto</a></li>
+                            <li><a href="#">Branco</a></li>
+                            <li><a href="#">Rosé</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu submenu-distillates"><a href="#" class="menu-link">Destilados</a>
+                        <ul class="submenu">
+                            <li><a href="#">Cachaça</a></li>
+                            <li><a href="#">Whisky</a></li>
+                            <li><a href="#">Vodka</a></li>
+                            <li><a href="#">Tequila</a></li>
+                            <li><a href="#">Outros</a></li>
+                        </ul>
+                    </li>
+                </ul> <!--menu-->
+            </nav>
+
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="http://api.whatsapp.com/send?phone=5511932500783"><i class="fab fa-whatsapp"></i></a>
+                <a href="http://instagram.com/adegaanhanguera?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+            </div> <!--.social-media-->
+        </asside> <!--.sidebar-->
+    </div> <!--container-menu-->
+
     <div class="topBarSearch">
         <div class="nav-logo">
             <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
@@ -19,7 +75,7 @@
         <div class="inputSearch">
             <div class="searchbar">
                 <div class="input-wrapper">
-                    <input type="text" name="" class="search" placeholder="Buscar..." required>
+                    <input type="text" name="" class="search" id="myInput" onkeyup="myFunction()" placeholder="Buscar..." required>
 
                     <button type="submit" class="searchButton">
                         <i class="fa fa-search"></i>
@@ -30,6 +86,9 @@
     </div>
 
     <nav class="navigation">
+        <div class="dropdown-button">
+            <button class="dropbtn"><a href="../index.html">Home</a></button>
+        </div>
         <div class="dropdown">
             <button class="dropbtn">Cerveja</button>
             <div class="dropdown-content">
@@ -600,8 +659,16 @@
 
     <footer>
         <div class="footer-content">
+            <p style="font-size: 10px;">
+                Os preços da loja online podem variar em relação a loja fisíca
+            </p>
+            
             <p>
-                Copyright &copy; 2023, <a href="http://https://github.com/DioonS">Diego Silva</a> - Todos os direitos reservados
+                R. Descalvado, 1 - Jardim Santana, Cajamar - SP, 07793-595
+            </p>
+            
+            <p>
+                Copyright &copy; 2023, <a href="http://https://github.com/DioonS">Diego Silva</a>
             </p>
         </div><!-- .footer-content -->
     </footer>
@@ -609,6 +676,9 @@
     <a href="#" id="link-topo"> <!--Link para voltar ao topo-->
         <i class="fas fa-arrow-up"></i>
     </a> <!-- #link-topo -->
+
+    <script src="../js/search.js"></script>
+    <script src="../js/menu.js"></script>
 
 </body>
 </html>

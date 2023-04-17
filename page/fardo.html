@@ -8,10 +8,66 @@
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ee7e969a6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/cards.css">
     <title>Adega Anhanguera</title>
 </head>
 <body>
+    <div class="container-menu">
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div> <!--.hamburguer-->
+
+        <asside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="../index.html" class="menu-link">Home</a></li>
+                    <li class="menu-item has-submenu submenu-beer"><a href="#" class="menu-link">Cervejas</a>
+                        <ul class="submenu">
+                            <li><a href="fardo.html">Fardo</a></li>
+                            <li><a href="unitario.html">Unitário</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu submenu-several"><a href="#" class="menu-link">Diversos</a>
+                        <ul class="submenu">
+                            <li><a href="refrigerante.html">Refrigerantes</a></li>
+                            <li><a href="suco.html">Sucos</a></li>
+                            <li><a href="agua.html">Água</a></li>
+                            <li><a href="energetico.html">Energéticos</a></li>
+                            <li><a href="ice.html">Ice</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="#" class="menu-link">Gelos</a></li>
+                    <li class="menu-item has-submenu submenu-wines"><a href="#" class="menu-link">Vinhos</a>
+                        <ul class="submenu">
+                            <li><a href="#">Tinto</a></li>
+                            <li><a href="#">Branco</a></li>
+                            <li><a href="#">Rosé</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu submenu-distillates"><a href="#" class="menu-link">Destilados</a>
+                        <ul class="submenu">
+                            <li><a href="#">Cachaça</a></li>
+                            <li><a href="#">Whisky</a></li>
+                            <li><a href="#">Vodka</a></li>
+                            <li><a href="#">Tequila</a></li>
+                            <li><a href="#">Outros</a></li>
+                        </ul>
+                    </li>
+                </ul> <!--menu-->
+            </nav>
+
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="http://api.whatsapp.com/send?phone=5511932500783"><i class="fab fa-whatsapp"></i></a>
+                <a href="http://instagram.com/adegaanhanguera?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+            </div> <!--.social-media-->
+        </asside> <!--.sidebar-->
+    </div> <!--container-menu-->
+
     <div class="topBarSearch">
         <div class="nav-logo">
             <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
@@ -19,7 +75,7 @@
         <div class="inputSearch">
             <div class="searchbar">
                 <div class="input-wrapper">
-                    <input type="text" name="" class="search" placeholder="Buscar..." required>
+                    <input type="text" name="" class="search" id="myInput" onkeyup="myFunction()" placeholder="Buscar..." required>
 
                     <button type="submit" class="searchButton">
                         <i class="fa fa-search"></i>
@@ -30,6 +86,9 @@
     </div>
 
     <nav class="navigation">
+        <div class="dropdown-button">
+            <button class="dropbtn"><a href="../index.html">Home</a></button>
+        </div>
         <div class="dropdown">
             <button class="dropbtn">Cerveja</button>
             <div class="dropdown-content">
@@ -118,7 +177,7 @@
             <!--</a>-->
             <main class="main-content">
                 <h3 style="text-align: center;">Amstel</h3>
-                <p style="text-align: center;">Engradado 16 Unidades</p>
+                <p style="text-align: center;">Engradado 24 Unidades</p>
                 <div class="flex-row">
                 <div class="coin-base">
                     <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -180,7 +239,7 @@
                 </div>
                 <div class="time-left">
                     <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
-                    <p>Garrafa 600ml</p>
+                    <p>Long Neck 275ml</p>
                 </div>
             </div>
             </main>
@@ -199,7 +258,7 @@
             <!--</a>-->
             <main class="main-content">
                 <h3 style="text-align: center;">Original</h3>
-                <p style="text-align: center;">12 Unidades</p>
+                <p style="text-align: center;">8 Unidades</p>
                 <div class="flex-row">
                 <div class="coin-base">
                     <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -253,7 +312,7 @@
             <!--</a>-->
             <main class="main-content">
                 <h3 style="text-align: center;">Original</h3>
-                <p style="text-align: center;">Retornável 12 Unidades</p>
+                <p style="text-align: center;">Engradado Retornável 24 Unidades</p>
                 <div class="flex-row">
                 <div class="coin-base">
                     <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -280,7 +339,7 @@
             <!--</a>-->
             <main class="main-content">
                 <h3 style="text-align: center;">Baden Baden Ipa</h3>
-                <p style="text-align: center;">12 Unidades</p>
+                <p style="text-align: center;">6 Unidades</p>
                 <div class="flex-row">
                 <div class="coin-base">
                     <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -307,7 +366,7 @@
             <img class="hero-image" src="https://www.homebar.com.br/wp-content/uploads/2021/04/CV.02.063.jpg" alt="Baden Baden Witbier"/>
             <main class="main-content">
                 <h3 style="text-align: center;">Baden Baden Witbier</h3>
-                <p style="text-align: center;">12 Unidades</p>
+                <p style="text-align: center;">6 Unidades</p>
                 <div class="flex-row">
                 <div class="coin-base">
                     <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -361,7 +420,7 @@
             <!--</a>-->
             <main class="main-content">
                 <h3 style="text-align: center;">Becks Sleek LT</h3>
-                <p style="text-align: center;">12 Unidades</p>
+                <p style="text-align: center;">8 Unidades</p>
                 <div class="flex-row">
                 <div class="coin-base">
                     <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -388,7 +447,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Brahma Chopp</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">15 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -419,7 +478,7 @@
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
-                        <h4>R$ 48,00</h4>
+                        <h4>R$ 45,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -442,7 +501,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Brahma Chopp</h3>
-                    <p style="text-align: center;">Retornável 12 Unidades</p>
+                    <p style="text-align: center;">Engradado Retornável 24 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -469,7 +528,7 @@
                 <img class="hero-image" src="https://chamadaposse.bidela.com.br/wp-content/uploads/2021/12/chama-da-posse_600ml-garrafa_24-ceveja-brahma.jpg" alt="Brahma Chopp"/>
                 <main class="main-content">
                     <h3 style="text-align: center;">Brahma Chopp</h3>
-                    <p style="text-align: center;">Engradado Retornável c/ 12 Unidades</p>
+                    <p style="text-align: center;">Engradado Retornável 24 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -496,7 +555,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Brahma Duplo Malte</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">15 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -527,7 +586,7 @@
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
-                        <h4>R$ 48,00</h4>
+                        <h4>R$ 46,20</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -550,11 +609,11 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Brahma Duplo Malte</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">Engradao 24 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
-                        <h4>R$ 48,00</h4>
+                        <h4>R$ 192,00</h4>
                     </div>
                     <div class="time-left">
                         <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -577,7 +636,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Brahma Duplo Malte</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">Engradado Retornável 24 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -604,7 +663,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Budweiser</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">8 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -658,7 +717,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Budweiser</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">6 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -685,7 +744,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Budweiser Zero Álcool</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">8 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -712,7 +771,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Cabaré</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">6 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -766,7 +825,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Cidade Imperial</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">6 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -793,7 +852,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Colorado Appia LT Sleck</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">8 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -847,7 +906,7 @@
                 <!--</a>-->
                 <main class="main-content">
                     <h3 style="text-align: center;">Colorado Lager LT Sleek</h3>
-                    <p style="text-align: center;">12 Unidades</p>
+                    <p style="text-align: center;">8 Unidades</p>
                     <div class="flex-row">
                     <div class="coin-base">
                         <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -982,7 +1041,7 @@
                     <img class="hero-image" src="https://cdn.gatry.com/gatry-static/promocao/imagem/d7c219e97aef250456a67a9a34e691f0.png" alt="Eisenbahn Pilsen"/>
                     <main class="main-content">
                         <h3 style="text-align: center;">Eisenbahn Pilsen</h3>
-                        <p style="text-align: center;">Engradado Retornável</p>
+                        <p style="text-align: center;">Engradado Retornável 24 Unidades</p>
                         <div class="flex-row">
                         <div class="coin-base">
                             <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1009,7 +1068,7 @@
                     <!--</a>-->
                     <main class="main-content">
                         <h3 style="text-align: center;">Eisenbahn Pilsen</h3>
-                        <p style="text-align: center;">12 Unidades</p>
+                        <p style="text-align: center;">6 Unidades</p>
                         <div class="flex-row">
                         <div class="coin-base">
                             <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1090,7 +1149,7 @@
                     <!--</a>-->
                     <main class="main-content">
                         <h3 style="text-align: center;">Heineken</h3>
-                        <p style="text-align: center;">Engradado</p>
+                        <p style="text-align: center;">Engradado 12 Unidades</p>
                         <div class="flex-row">
                         <div class="coin-base">
                             <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1198,7 +1257,7 @@
                     <img class="hero-image" src="https://choppbrahmaexpress.vtexassets.com/arquivos/ids/155916/hoegaarden_24_uni.jpg?v=637353455359230000" alt="Hoegarden"/>
                     <main class="main-content">
                         <h3 style="text-align: center;">Hoegarden</h3>
-                        <p style="text-align: center;">Engradado</p>
+                        <p style="text-align: center;">Engradado 24 Unidades</p>
                         <div class="flex-row">
                         <div class="coin-base">
                             <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1387,7 +1446,7 @@
                     <!--</a>-->
                     <main class="main-content">
                         <h3 style="text-align: center;">Patagonia</h3>
-                        <p style="text-align: center;">12 Unidades</p>
+                        <p style="text-align: center;">8 Unidades</p>
                         <div class="flex-row">
                         <div class="coin-base">
                             <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1418,7 +1477,7 @@
                             <div class="flex-row">
                             <div class="coin-base">
                                 <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
-                                <h4>R$ 269,00</h4>
+                                <h4>R$ 33,60</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1472,7 +1531,7 @@
                             <div class="flex-row">
                             <div class="coin-base">
                                 <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
-                                <h4>R$ 33,60</h4>
+                                <h4>R$ 42,00</h4>
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
@@ -1603,7 +1662,7 @@
                         <!--</a>-->
                         <main class="main-content">
                             <h3 style="text-align: center;">Skol</h3>
-                            <p style="text-align: center;">12 Unidades Retornável</p>
+                            <p style="text-align: center;">Engradado Retornável 24 Unidades</p>
                             <div class="flex-row">
                             <div class="coin-base">
                                 <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1611,7 +1670,7 @@
                             </div>
                             <div class="time-left">
                                 <img src="https://i.pinimg.com/474x/f6/71/74/f67174d576be3f4569da4e0237565d52.jpg" alt="Bebida" class="small-image"/>
-                                <p>Garrafa 330ml</p>
+                                <p>Garrafa 300ml</p>
                             </div>
                         </div>
                         </main>
@@ -1630,7 +1689,7 @@
                         <!--</a>-->
                         <main class="main-content">
                             <h3 style="text-align: center;">Skol</h3>
-                            <p style="text-align: center;">Engradado Retornável</p>
+                            <p style="text-align: center;">Engradado Retornável 24 Unidades</p>
                             <div class="flex-row">
                             <div class="coin-base">
                                 <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1711,7 +1770,7 @@
                         <!--</a>-->
                         <main class="main-content">
                             <h3 style="text-align: center;">Spaten</h3>
-                            <p style="text-align: center;">Engradado Retornável</p>
+                            <p style="text-align: center;">Engradado Retornável 12 Unidades</p>
                             <div class="flex-row">
                             <div class="coin-base">
                                 <img src="../images/cifrao.webp" alt="Cifrão" class="small-image"/>
@@ -1843,7 +1902,7 @@
     <footer>
         <div class="footer-content">
             <p style="font-size: 10px;">
-                Os preços da loja online podem variar em relação as lojas
+                Os preços da loja online podem variar em relação a loja fisíca
             </p>
             
             <p>
@@ -1859,6 +1918,9 @@
     <a href="#" id="link-topo"> <!--Link para voltar ao topo-->
         <i class="fas fa-arrow-up"></i>
     </a> <!-- #link-topo -->
+
+    <script src="../js/search.js"></script>
+    <script src="../js/menu.js"></script>
 
 </body>
 </html>

@@ -142,6 +142,7 @@ div.coin-base, .time-left, .card-attribute {
 .suco-container {
     height: 400px;
 }
+
 .suco-container:last-child {
     height: 370px;
 }
@@ -184,71 +185,71 @@ div.coin-base, .time-left, .card-attribute {
 
 @media (max-width:767px) {
     .ice-container:first-child {
-        height: 400px;
+        height: 380px;
     }
 
     .ice-container:nth-child(2) {
-        height: 380px;
+        height: 370px;
     }
 
     .ice-container:nth-child(3) {
-        height: 350px;
+        height: 340px;
     }
 
     .ice-container:last-child {
-        height: 380px;
+        height: 370px;
     }
 
     .suco-container:first-child {
-        height: 380px;
+        height: 370px;
     }
 
     .suco-container:nth-child(2) {
-        height: 380px;
+        height: 370px;
     }
 
     .suco-container:nth-child(3) {
-        height: 390px;
+        height: 380px;
     }
 
     .suco-container:nth-child(4) {
-        height: 400px;
+        height: 380px;
     }
 
     .suco-container:last-child {
-        height: 380px;
+        height: 370px;
     }
 
     .energetico-container:first-child {
-        height: 380px;
+        height: 370px;
     }
 
     .energetico-container:nth-child(2) {
-        height: 380px;
+        height: 370px;
     }
 
     .energetico-container:nth-child(3) {
-        height: 380px;
+        height: 370px;
     }
 
     .energetico-container:nth-child(4) {
-        height: 380px;
+        height: 370px;
     }
 
     .energetico-container:nth-child(5) {
-        height: 380px;
+        height: 370px;
     }
 
     .energetico-container:nth-child(6) {
-        height: 380px;
+        height: 370px;
     }
 
     .energetico-container:nth-child(7) {
-        height: 420px;
+        height: 370px;
     }
 
     .energetico-container:nth-child(8) {
-        height: 390px;
+        height: 410px;
     }
 
     .energetico-container:nth-child(9) {
@@ -256,108 +257,112 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .energetico-container:nth-child(10) {
-        height: 410px;
+        height: 370px;
+    }
+
+    .energetico-container:nth-child(11) {
+        height: 400px;
     }
 
     .energetico-container:last-child {
-        height: 380px;
+        height: 370px;
     }
 
     .agua-container:first-child {
-        height: 380px;
+        height: 370px;
     }
 
     .agua-container:nth-child(2) {
-        height: 380px;
+        height: 370px;
     }
 
     .agua-container:nth-child(3) {
-        height: 360px;
+        height: 350px;
     }
 
     .agua-container:nth-child(4) {
-        height: 360px;
+        height: 350px;
     }
 
     .agua-container:last-child {
-        height: 360px;
+        height: 350px;
     }
 
 
     .refrigerante-container:first-child {
-        height: 360px;
+        height: 345px;
     }
 
     .refrigerante-container:nth-child(2) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(3) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(4) {
-        height: 310px;
+        height: 300px;
     }
 
     .refrigerante-container:nth-child(5) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(6) {
-        height: 380px;
+        height: 370px;
     }
 
     .refrigerante-container:nth-child(7) {
-        height: 380px;
+        height: 370px;
     }
 
     .refrigerante-container:nth-child(8) {
-        height: 380px;
+        height: 370px;
     }
 
     .refrigerante-container:nth-child(9) {
-        height: 380px;
+        height: 370px;
     }
 
     .refrigerante-container:nth-child(10) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(11) {
-        height: 310px;
+        height: 300px;
     }
 
     .refrigerante-container:nth-child(12) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(13) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(14) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(15) {
-        height: 380px;
+        height: 370px;
     }
 
     .refrigerante-container:nth-child(16) {
-        height: 380px;
+        height: 370px;
     }
 
     .refrigerante-container:nth-child(17) {
-        height: 360px;
+        height: 350px;
     }
 
     .refrigerante-container:nth-child(18) {
-        height: 380px;
+        height: 370px;
     }
 
     .refrigerante-container:last-child {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:first-child {
@@ -409,23 +414,23 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(13) {
-        height: 320px;
+        height: 310px;
     }
 
     .fardos-container:nth-child(14) {
-        height: 400px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(15) {
-        height: 400px;
+        height: 380px;
     }
 
     .fardos-container:nth-child(16) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(17) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(18) {
@@ -433,11 +438,11 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(19) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(20) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(21) {
@@ -453,11 +458,11 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(24) {
-        height: 400px;
+        height: 380px;
     }
 
     .fardos-container:nth-child(25) {
-        height: 330px;
+        height: 320px;
     }
 
     .fardos-container:nth-child(26) {
@@ -465,7 +470,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(27) {
-        height: 330px;
+        height: 350px;
     }
 
     .fardos-container:nth-child(28) {
@@ -473,7 +478,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(29) {
-        height: 380px;
+        height: 390px;
     }
 
     .fardos-container:nth-child(30) {
@@ -485,27 +490,27 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(32) {
-        height: 330px;
+        height: 320px;
     }
 
     .fardos-container:nth-child(33) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(34) {
-        height: 440px;
+        height: 450px;
     }
 
     .fardos-container:nth-child(35) {
-        height: 345px;
+        height: 335px;
     }
 
     .fardos-container:nth-child(36) {
-        height: 375px;
+        height: 365px;
     }
 
     .fardos-container:nth-child(37) {
-        height: 345px;
+        height: 335px;
     }
 
     .fardos-container:nth-child(38) {
@@ -513,11 +518,11 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(39) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(40) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(41) {
@@ -525,55 +530,55 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(42) {
-        height: 390px;
+        height: 380px;
     }
 
     .fardos-container:nth-child(43) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(44) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(45) {
-        height: 380px;
-    }
-
-    .fardos-container:nth-child(46) {
-        height: 380px;
-    }
-
-    .fardos-container:nth-child(47) {
-        height: 380px;
-    }
-
-    .fardos-container:nth-child(48) {
         height: 390px;
     }
 
-    .fardos-container:nth-child(49) {
+    .fardos-container:nth-child(46) {
+        height: 370px;
+    }
+
+    .fardos-container:nth-child(47) {
+        height: 370px;
+    }
+
+    .fardos-container:nth-child(48) {
         height: 380px;
+    }
+
+    .fardos-container:nth-child(49) {
+        height: 370px;
     }
 
     .fardos-container:nth-child(50) {
-        height: 350px;
-    }
-
-    .fardos-container:nth-child(51) {
-        height: 330px;
-    }
-
-    .fardos-container:nth-child(52) {
         height: 340px;
     }
 
+    .fardos-container:nth-child(51) {
+        height: 320px;
+    }
+
+    .fardos-container:nth-child(52) {
+        height: 330px;
+    }
+
     .fardos-container:nth-child(53) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(54) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(55) {
@@ -585,19 +590,19 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(57) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(58) {
-        height: 330px;
+        height: 340px;
     }
 
     .fardos-container:nth-child(59) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(60) {
-        height: 380px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(61) {
@@ -613,11 +618,11 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(64) {
-        height: 390px;
+        height: 400px;
     }
 
     .fardos-container:last-child {
-        height: 380px;
+        height: 370px;
     }
 
     .unitario-container:first-child {
@@ -873,10 +878,10 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:nth-child(64) {
-        height: 360px;
+        height: 390px;
     }
 
     .unitario-container:last-child {
-        height: 360px;
+        height: 350px;
     }
 }
