@@ -67,7 +67,7 @@
 
 .sidebar {
     width: 20rem;
-    height: 100vh;
+    height: 100%;
     background-color: #1e1e1e;
     position: fixed;
     top: 0;
@@ -107,7 +107,7 @@
 
 .social-media {
     position: absolute;
-    bottom: 2rem;
+    bottom: 4rem;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
