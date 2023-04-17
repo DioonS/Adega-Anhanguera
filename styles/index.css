@@ -21,7 +21,11 @@ body::before {
     background: url(../images/bebidas2.jpg) center center no-repeat fixed;
     background-size: cover;
     opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center bottom; /* Adicionado */
+    background-clip: content-box; /* Adicionado */
 }
+
 
 a {
     text-decoration: none;
@@ -46,6 +50,7 @@ a {
     font-size: 24px;
     margin-top: 1.5rem;
     transition: transform 0.6s ease-in-out;
+    box-shadow: 0 0 0 1px #D19B3E, 0 0 0 2px #FCD926;
 }
 
 .menu-principal a:last-child {
