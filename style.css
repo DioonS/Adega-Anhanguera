@@ -771,7 +771,7 @@ span {
     }
 
     .searchbar input[type=text]{
-        width: 180px !important;
+        width: 130px !important;
     }
 
     .nav-logo {
@@ -795,21 +795,21 @@ span {
 
 @media only screen and (max-width: 415px) {
     .searchbar {
-        margin-right: 4rem !important;
+        margin-right: 7rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 150px !important;
+        width: 110px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 10px !important;
+        margin: 0 0 0 0px !important;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .searchbar {
-        margin-right: 6rem !important;
+        margin-right: 2rem !important;
     }
 
     .searchbar input[type=text]{
@@ -823,11 +823,11 @@ span {
 
 @media only screen and (max-width: 320px) {
     .searchbar {
-        margin-right: 1rem !important;
+        margin-right: 3.2rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 150px !important;
+        width: 120px !important;
     }
 
     .nav-logo {
