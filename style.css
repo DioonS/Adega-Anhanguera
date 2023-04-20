@@ -159,64 +159,8 @@ span {
 }
 
 /**********************************/
-/* 3. Dropdown-Navigation
+/* 3. Nav Logo
 /**********************************/
-
-.input-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.searchbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    float: right;
-    margin-right: 23rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.searchbar input[type=text]{
-    text-indent: 10px;
-    height: 30px;
-    width: 600px;
-    border: none;
-    border-radius: 8 px px 8;
-}
-
-.search {
-    padding: 5px;
-    height: 20px;
-    border-radius: 8px 0 0 8px;
-    font-family: 'Quicksand';
-    font-size: 15px;
-    box-shadow: 11px -180px 50px black;
-}
-
-.searchButton {
-    width: 35px;
-    height: 30px;
-    border: 1px solid #FCD926;
-    background: #FCD926;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 8px 8px 0;
-    font-size: 20px;
-}
-
-.navigation {
-    width: 100%;
-    max-height: 70px;
-    background-color: #1e1e1e;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 0 0 0 1px #FCD926, 0 0 0 2px #D19B3E;
-    margin-top: 7rem;
-}
 
 .nav-logo {
     position: absolute;
@@ -565,55 +509,65 @@ span {
 /* 10. Responsive-container
 /**********************************/
 
-@media (max-width: 1440px) {
+@media (max-width: 1500px) {
     .searchbar input[type=text]{
-        width: 450px;
+        width: 450px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 450px;
+        margin: 0 0 0 450px !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .searchbar input[type=text]{
+        width: 450px !important;
+    }
+
+    .nav-logo {
+        margin: 0 0 0 450px !important;
     }
 }
 
 @media (max-width: 1400px) {
     .searchbar input[type=text]{
-        width: 400px;
+        width: 350px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 400px;
+        margin: 0 0 0 400px !important;
     }
 }
 
 @media (max-width: 1300px) {
     .searchbar input[type=text]{
-        width: 350px;
+        width: 320px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 350px;
+        margin: 0 0 0 350px !important;
     }
 }
 
 @media (max-width: 1185px) {
     .searchbar input[type=text]{
-        width: 350px;
+        width: 230px !important;
     }
 }
 
 @media (max-width: 1135px) {
     .nav-logo {
-        margin: 0 0 0 250px;
+        margin: 0 0 0 200px !important;
     }
 }
 
 @media (max-width: 1100px) {
     .searchbar input[type=text]{
-        width: 400px;
+        width: 300px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 220px;
+        margin: 0 0 0 200px !important;
     }
 }
 
@@ -623,15 +577,15 @@ span {
     }
 
     .searchbar {
-        margin-right: 12rem;
+        margin-right: 12rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 300px;
+        width: 300px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 250px;
+        margin: 0 0 0 250px !important;
     }
 }
 
@@ -641,11 +595,11 @@ span {
     }
 
     .searchbar input[type=text]{
-        width: 250px;
+        width: 250px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 220px;
+        margin: 0 0 0 220px !important;
     }
 }
 
@@ -655,15 +609,15 @@ span {
     }
 
     .searchbar {
-        margin-right: 12rem;
+        margin-right: 12rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 200px;
+        margin: 0 0 0 200px !important;
     }
 }
 
@@ -696,34 +650,34 @@ span {
 
     .searchbar {
         /*position: fixed;*/
-        margin-right: 12rem;
+        margin-right: 12rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 200px;
+        margin: 0 0 0 200px !important;
         /*position: fixed;*/
     }
 
     .img-logo {
-        margin-top: 6rem;
+        margin-top: 6rem !important;
     }
 }
 
 @media only screen and (max-width: 730px) {
     .searchbar {
-        margin-right: 10rem;
+        margin-right: 10rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 200px;
+        margin: 0 0 0 200px !important;
     }
 }
 
@@ -733,157 +687,157 @@ span {
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 150px;
+        margin: 0 0 0 150px !important;
     }
 }
 
 @media only screen and (max-width: 650px) {
     .searchbar {
-        margin-right: 8rem;
+        margin-right: 8rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 130px;
+        margin: 0 0 0 130px !important;
     }
 }
 
 @media only screen and (max-width: 620px) {
     .searchbar {
-        margin-right: 7rem;
+        margin-right: 7rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 110px;
+        margin: 0 0 0 110px !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .searchbar {
-        margin-right: 7rem;
+        margin-right: 7rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 80px;
+        margin: 0 0 0 80px !important;
     }
 }
 
 @media only screen and (max-width: 560px) {
     .searchbar {
-        margin-right: 7rem;
+        margin-right: 7rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 60px;
+        margin: 0 0 0 60px !important;
     }
 }
 
 @media only screen and (max-width: 520px) {
     .searchbar {
-        margin-right: 6rem;
+        margin-right: 6rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 200px;
+        width: 200px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 60px;
+        margin: 0 0 0 60px !important;
     }
 }
 
 @media only screen and (max-width: 490px) {
     .searchbar {
-        margin-right: 6rem;
+        margin-right: 6rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 180px;
+        width: 180px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 40px;
+        margin: 0 0 0 40px !important;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .searchbar {
-        margin-right: 7rem;
+        margin-right: 7rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 140px;
+        width: 140px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 20px;
+        margin: 0 0 0 20px !important;
     }
 }
 
 @media only screen and (max-width: 415px) {
     .searchbar {
-        margin-right: 6rem;
+        margin-right: 4rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 150px;
+        width: 150px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 10px;
+        margin: 0 0 0 10px !important;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .searchbar {
-        margin-right: 6rem;
+        margin-right: 6rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 150px;
+        width: 150px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 0px;
+        margin: 0 0 0 0px !important;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .searchbar {
-        margin-right: 5.5rem;
+        margin-right: 1rem !important;
     }
 
     .searchbar input[type=text]{
-        width: 150px;
+        width: 150px !important;
     }
 
     .nav-logo {
-        margin: 0 0 0 0px;
+        margin: 0 0 0 0px !important;
     }
 }
 
 @media (max-width: 767px) {
     .navigation {
-        display: none;
+        display: none !important;
     }
 
     .hamburguer {
@@ -892,8 +846,8 @@ span {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .container-menu {
-        display: none;
+        display: none !important;
     }
 }

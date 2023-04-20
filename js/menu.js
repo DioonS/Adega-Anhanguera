@@ -1,43 +1,50 @@
-document.querySelector(".hamburguer").addEventListener("click", () =>
+document.querySelector(".hamburguer").addEventListener("click", () => // -> Funciona
     document.querySelector(".container-menu").classList.toggle("show-menu")
 );
 
-const debounce = function(func, wait, immediate) {
-    let timeout;
-    return function(...args) {
-        const context = this;
-        const later = function () {
-            timeout = null;
-            if(!immediate) func.apply(context, args);
-        };
-        const callnow = immediate && timeout;
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-        if (callnow) func.apply(context, args);
-    };
-};
-
-// Evento de click do submenu
 const menuItems = document.querySelectorAll('.has-submenu');
+const submenuItems = document.querySelectorAll('.submenu a');
+const nonSubmenuItems = document.querySelectorAll('.no-submenu');
 
 menuItems.forEach(item => {
     item.addEventListener('click', event => {
-        //event.preventDefault();
-        item.classList.toggle('active');
-    });
+        const parent = item.closest('.has-submenu');
+        const isActive = parent.classList.contains('active');
+
+        // Fecha os outros submenus antes de abrir o atual
+        const openSubmenus = document.querySelectorAll('.has-submenu.active');
+        openSubmenus.forEach(openSubmenu => {
+            if (openSubmenu !== parent) {
+                openSubmenu.classList.remove('active');
+            }
+            });
+
+            // Adiciona a classe ativa no submenu clicado
+            parent.classList.toggle('active', !isActive);
+        });
 });
-
-
-// Evento de click para direcionar para a página desejada no menu hamburguer
-const submenuItems = document.querySelectorAll('.submenu a');
 
 submenuItems.forEach(item => {
     item.addEventListener('click', event => {
-        const parent = item.closest('.has-submenu');
-        if (parent.classList.contains('active')) {
-            parent.classList.remove('active');
-        }
+        document.querySelector(".container-menu").classList.remove("show-menu");
+    });
+});
 
+nonSubmenuItems.forEach(item => {
+    item.addEventListener('click', event => {
+        event.preventDefault();
+
+        const targetId = item.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+            const topOffset = targetElement.offsetTop;
+            window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth'
+            });
+        }
+        document.querySelector(".container-menu").classList.remove("show-menu");
     });
 });
 

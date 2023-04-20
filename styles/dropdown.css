@@ -1,3 +1,15 @@
+.navigation {
+    width: 100%;
+    max-height: 70px;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 0 1px #FCD926, 0 0 0 2px #D19B3E;
+    margin-top: 7rem;
+}
+
 .dropbtn {
     background-color: #1e1e1e;
     color: white;
