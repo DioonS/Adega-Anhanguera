@@ -1,3 +1,10 @@
+@import url(styles/cards.css);
+@import url(styles/dropdown.css);
+@import url(styles/index.css);
+@import url(styles/menu.css);
+@import url(styles/searchbar.css);
+
+
 * {
     padding: 0;
     margin: 0;
