@@ -47,13 +47,3 @@ nonSubmenuItems.forEach(item => {
         document.querySelector(".container-menu").classList.remove("show-menu");
     });
 });
-
-/* Debuger de eventos
-const links = document.querySelectorAll('.menu-link');
-
-links.forEach(link => {
-    link.addEventListener('click', () => {
-        console.log('Link clicado!');
-    });
-});
-*/

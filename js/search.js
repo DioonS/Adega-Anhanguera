@@ -35,7 +35,6 @@ searchButton.addEventListener("click", function() {
 
 // Adiciona o evento de enter para busca
 input.addEventListener("keyup", function(event) {
-    console.log("Evento de Enter!");
 
     if (event.key === "Enter") {
         event.preventDefault();

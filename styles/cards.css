@@ -185,27 +185,27 @@ div.coin-base, .time-left, .card-attribute {
 
 @media (max-width:767px) {
     .ice-container:first-child {
-        height: 380px;
+        height: 375px;
     }
 
     .ice-container:nth-child(2) {
-        height: 370px;
+        height: 360px;
     }
 
     .ice-container:nth-child(3) {
-        height: 340px;
+        height: 330px;
     }
 
     .ice-container:last-child {
-        height: 370px;
+        height: 360px;
     }
 
     .suco-container:first-child {
-        height: 370px;
+        height: 360px;
     }
 
     .suco-container:nth-child(2) {
-        height: 370px;
+        height: 360px;
     }
 
     .suco-container:nth-child(3) {
@@ -217,35 +217,35 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .suco-container:last-child {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:first-child {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(2) {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(3) {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(4) {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(5) {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(6) {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(7) {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(8) {
@@ -257,27 +257,27 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .energetico-container:nth-child(10) {
-        height: 370px;
+        height: 360px;
     }
 
     .energetico-container:nth-child(11) {
-        height: 400px;
+        height: 410px;
     }
 
     .energetico-container:last-child {
-        height: 370px;
+        height: 380px;
     }
 
     .agua-container:first-child {
-        height: 370px;
+        height: 360px;
     }
 
     .agua-container:nth-child(2) {
-        height: 370px;
+        height: 360px;
     }
 
     .agua-container:nth-child(3) {
-        height: 350px;
+        height: 340px;
     }
 
     .agua-container:nth-child(4) {
@@ -285,84 +285,84 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .agua-container:last-child {
-        height: 350px;
+        height: 340px;
     }
 
 
     .refrigerante-container:first-child {
-        height: 345px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(2) {
-        height: 350px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(3) {
-        height: 350px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(4) {
-        height: 300px;
+        height: 290px;
     }
 
     .refrigerante-container:nth-child(5) {
-        height: 350px;
+        height: 355px;
     }
 
     .refrigerante-container:nth-child(6) {
-        height: 370px;
+        height: 360px;
     }
 
     .refrigerante-container:nth-child(7) {
-        height: 370px;
+        height: 360px;
     }
 
     .refrigerante-container:nth-child(8) {
-        height: 370px;
+        height: 360px;
     }
 
     .refrigerante-container:nth-child(9) {
-        height: 370px;
+        height: 360px;
     }
 
     .refrigerante-container:nth-child(10) {
-        height: 350px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(11) {
-        height: 300px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(12) {
-        height: 350px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(13) {
-        height: 350px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(14) {
-        height: 350px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(15) {
-        height: 370px;
+        height: 360px;
     }
 
     .refrigerante-container:nth-child(16) {
-        height: 370px;
+        height: 360px;
     }
 
     .refrigerante-container:nth-child(17) {
-        height: 350px;
+        height: 340px;
     }
 
     .refrigerante-container:nth-child(18) {
-        height: 370px;
+        height: 360px;
     }
 
     .refrigerante-container:last-child {
-        height: 370px;
+        height: 360px;
     }
 
     .fardos-container:first-child {
@@ -418,7 +418,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(14) {
-        height: 370px;
+        height: 385px;
     }
 
     .fardos-container:nth-child(15) {
@@ -438,7 +438,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(19) {
-        height: 370px;
+        height: 380px;
     }
 
     .fardos-container:nth-child(20) {
@@ -454,7 +454,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(23) {
-        height: 320px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(24) {
@@ -522,7 +522,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(40) {
-        height: 370px;
+        height: 320px;
     }
 
     .fardos-container:nth-child(41) {
@@ -566,7 +566,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(51) {
-        height: 320px;
+        height: 370px;
     }
 
     .fardos-container:nth-child(52) {
@@ -590,7 +590,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .fardos-container:nth-child(57) {
-        height: 370px;
+        height: 380px;
     }
 
     .fardos-container:nth-child(58) {
@@ -626,7 +626,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:first-child {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(2) {
@@ -634,7 +634,7 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:nth-child(3) {
-        height: 300px;
+        height: 280px;
     }
 
     .unitario-container:nth-child(4) {
@@ -642,43 +642,43 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:nth-child(5) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(6) {
-        height: 310px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(7) {
-        height: 360px;
+        height: 370px;
     }
 
     .unitario-container:nth-child(8) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(9) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(10) {
-        height: 380px;
+        height: 360px;
     }
 
     .unitario-container:nth-child(11) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(12) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(13) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(14) {
-        height: 380px;
+        height: 360px;
     }
 
     .unitario-container:nth-child(15) {
@@ -686,47 +686,47 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:nth-child(16) {
-        height: 350px;
+        height: 320px;
     }
 
     .unitario-container:nth-child(17) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(18) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(19) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(20) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(21) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(22) {
-        height: 300px;
+        height: 290px;
     }
 
     .unitario-container:nth-child(23) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(24) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(25) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(26) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(27) {
@@ -742,19 +742,19 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:nth-child(30) {
-        height: 330px;
+        height: 305px;
     }
 
     .unitario-container:nth-child(31) {
-        height: 310px;
+        height: 300px;
     }
 
     .unitario-container:nth-child(32) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(33) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(34) {
@@ -762,107 +762,107 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:nth-child(35) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(36) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(37) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(38) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(39) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(40) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(41) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(42) {
-        height: 320px;
+        height: 305px;
     }
 
     .unitario-container:nth-child(43) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(44) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(45) {
-        height: 360px;
+        height: 355px;
     }
 
     .unitario-container:nth-child(46) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(47) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(48) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(49) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(50) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(51) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(52) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(53) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(54) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(55) {
-        height: 360px;
+        height: 355px;
     }
 
     .unitario-container:nth-child(56) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(57) {
-        height: 380px;
+        height: 360px;
     }
 
     .unitario-container:nth-child(58) {
-        height: 380px;
+        height: 360px;
     }
 
     .unitario-container:nth-child(59) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(60) {
-        height: 360px;
+        height: 340px;
     }
 
     .unitario-container:nth-child(61) {
@@ -870,18 +870,359 @@ div.coin-base, .time-left, .card-attribute {
     }
 
     .unitario-container:nth-child(62) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(63) {
-        height: 360px;
+        height: 350px;
     }
 
     .unitario-container:nth-child(64) {
-        height: 390px;
+        height: 375px;
     }
 
     .unitario-container:last-child {
+        height: 340px;
+    }
+
+    .vinho-container:first-child {
+        height: 335px;
+    }
+
+    .vinho-container:nth-child(2) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(3) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(4) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(5) {
+        height: 470px;
+    }
+
+    .vinho-container:nth-child(6) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(7) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(8) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(9) {
+        height: 360px;
+    }
+
+    .vinho-container:nth-child(10) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(11) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(12) {
+        height: 360px;
+    }
+
+    .vinho-container:nth-child(13) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(14) {
+        height: 375px;
+    }
+
+    .vinho-container:last-child {
+        height: 375px;
+    }
+
+    .cachaca-container:first-child {
         height: 350px;
+    }
+
+    .cachaca-container:nth-child(2) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(3) {
+        height: 335px;
+    }
+
+    .cachaca-container:nth-child(4) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(5) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(6) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(7) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(8) {
+        height: 335px;
+    }
+
+    .cachaca-container:nth-child(9) {
+        height: 335px;
+    }
+
+    .cachaca-container:nth-child(10) {
+        height: 335px;
+    }
+
+    .cachaca-container:nth-child(11) {
+        height: 335px;
+    }
+
+    .cachaca-container:nth-child(12) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(13) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(14) {
+        height: 350px;
+    }
+
+    .cachaca-container:nth-child(15) {
+        height: 350px;
+    }
+
+    .cachaca-container:last-child {
+        height: 350px;
+    }
+
+    .whisky-container:first-child {
+        height: 335px;
+    }
+
+    .whisky-container:nth-child(2) {
+        height: 350px;
+    }
+
+    .whisky-container:nth-child(3) {
+        height: 335px;
+    }
+
+    .whisky-container:nth-child(4) {
+        height: 335px;
+    }
+
+    .whisky-container:nth-child(5) {
+        height: 375px;
+    }
+
+    .whisky-container:nth-child(6) {
+        height: 355px;
+    }
+
+    .whisky-container:nth-child(7) {
+        height: 330px;
+    }
+
+    .whisky-container:nth-child(8) {
+        height: 335px;
+    }
+
+    .whisky-container:nth-child(9) {
+        height: 360px;
+    }
+
+    .whisky-container:last-child {
+        height: 335px;
+    }
+
+    .vodka-container:first-child {
+        height: 375px;
+    }
+
+    .vodka-container:nth-child(2) {
+        height: 375px;
+    }
+
+    .vodka-container:nth-child(3) {
+        height: 335px;
+    }
+
+    .vodka-container:nth-child(4) {
+        height: 350px;
+    }
+
+    .vodka-container:last-child {
+        height: 375px;
+    }
+
+    .vinho-container:first-child {
+        height: 335px;
+    }
+
+    .vinho-container:nth-child(2) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(3) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(4) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(5) {
+        height: 470px;
+    }
+
+    .vinho-container:nth-child(6) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(7) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(8) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(9) {
+        height: 360px;
+    }
+
+    .vinho-container:nth-child(10) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(11) {
+        height: 440px;
+    }
+
+    .vinho-container:nth-child(12) {
+        height: 360px;
+    }
+
+    .vinho-container:nth-child(13) {
+        height: 375px;
+    }
+
+    .vinho-container:nth-child(14) {
+        height: 375px;
+    }
+
+    .vinho-container:last-child {
+        height: 375px;
+    }
+
+    .outros-container:first-child {
+        height: 375px;
+    }
+
+    .outros-container:nth-child(2) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(3) {
+        height: 375px;
+    }
+
+    .outros-container:nth-child(4) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(5) {
+        height: 375px;
+    }
+
+    .outros-container:nth-child(6) {
+        height: 375px;
+    }
+
+    .outros-container:nth-child(7) {
+        height: 375px;
+    }
+
+    .outros-container:nth-child(8) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(9) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(10) {
+        height: 335px;
+    }
+
+    .outros-container:nth-child(11) {
+        height: 360px;
+    }
+
+    .outros-container:nth-child(12) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(13) {
+        height: 375px;
+    }
+
+    .outros-container:nth-child(14) {
+        height: 360px;
+    }
+
+    .outros-container:nth-child(15) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(16) {
+        height: 335px;
+    }
+
+    .outros-container:nth-child(17) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(18) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(19) {
+        height: 335px;
+    }
+
+    .outros-container:nth-child(20) {
+        height: 380px;
+    }
+
+    .outros-container:nth-child(21) {
+        height: 335px;
+    }
+
+    .outros-container:nth-child(22) {
+        height: 350px;
+    }
+
+    .outros-container:nth-child(23) {
+        height: 350px;
+    }
+
+
+    .outros-container:last-child {
+        height: 375px;
     }
 }
