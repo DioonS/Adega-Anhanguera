@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/adicionar.css">
+    <script src="https://kit.fontawesome.com/ee7e969a6e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <title>Adega Anhanguera - Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo">
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#dashboard"><i class="fa-solid fa-gauge-high"></i>Dashboard</a></li>
+                <li><a href="#adicionar"><i class="fa-solid fa-plus"></i>Adicionar</a></li>
+                <li><a href="#editar"><i class="fa-solid fa-pen"></i>Editar</a></li>
+                <li><a href="#excluir"><i class="fa-solid fa-eraser"></i>Excluir</a></li>
+                <li><a href="#sair"><i class="fa-solid fa-right-from-bracket"></i>Sair</a></li>
+            </ul>
+            <button class="centered-button"><i class="fas fa-arrow-left"></i></button>
+        </div>
+
+            <div class="content-panel">
+                <h2>Adicionar</h2>
+                <hr>
+                <p>Selecione a Página do Produto [Tipo]:</p>
+                <select name="select">
+                    <option value="valor1">Fardo</option>
+                    <option value="valor2">Unitário</option>
+                    <option value="valor3">Refrigerantes</option>
+                    <option value="valor4">Sucos</option>
+                    <option value="valor5">Água</option>
+                    <option value="valor6">Energéticos</option>
+                    <option value="valor7">Ice's</option>
+                    <option value="valor8">Gelos</option>
+                    <option value="valor9">Vinhos</option>
+                    <option value="valor10">Cachaça</option>
+                    <option value="valor11">Whisky</option>
+                    <option value="valor11">Vodka</option>
+                    <option value="valor11">Outros</option>
+                </select>
+                <p>Nome do Produto:</p>
+                <input type="text" placeholder="Informe Nome do Produto">
+                <p>Preço:</p>
+                <input type="text" placeholder="Informe Preço do Produto">
+                <p>Emabalagem e Quantidade:</p>
+                <input type="text" placeholder="Informe tipo da Embalagem e Quantidade do Produto">
+                <p>Imagem:</p>
+                <div class="charge-image">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="imagemOption" value="link" checked><p>Adicionar via Link</p>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="imagemOption" value="upload"><p>Carregar Imagem</p>
+                    </label>
+                    <div id="imagemLink" style="width: 100%;">
+                        <input type="text" placeholder="Informe Link da Imagem do Produto">
+                    </div>
+                    <div id="imagemUpload" style="display: none;">
+                        <label for="imagemFile"></label>
+                        <input type="file" id="imagemFile" name="imagem" accept="image/*">
+                    </div>
+                </div>
+                <button>Adicionar Produto</button>
+            </div>
+    </div>
+
+    <script src="../js/checkbox.js"></script>
+</body>
+</html>

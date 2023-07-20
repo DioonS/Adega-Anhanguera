@@ -1,0 +1,75 @@
+@import url(painelAdministrativo.css);
+
+.content-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 0 0 1px #D19B3E, 0 0 0 2px #FCD926;
+    margin-top: 4rem;
+    height: 40rem;
+    margin-left: 8rem;
+    width: 62rem;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.content-panel h2 {
+    color: #fff;
+    font-family: 'Quicksand';
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin-bottom: 1rem;
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(209, 155, 62, 1) 0%, rgba(252, 217, 38, 1) 50%, rgba(209, 155, 62, 1) 100%);
+}
+
+.content-panel p {
+    margin-bottom: .5rem;
+}
+
+.content-panel select,
+.content-panel input {
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Quicksand';
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.content-panel button {
+    width: 12rem;
+    height: 8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 18px;
+    background: rgb(209,155,62);
+    background: linear-gradient(90deg, rgba(209,155,62,1) 0%, rgba(252,217,38,1) 50%, rgba(209,155,62,1) 100%);
+}
+
+.charge-image {
+    display: flex;
+    flex-direction: column; /* Adicionamos essa linha para colocar os checkboxes em coluna */
+    align-items: flex-start; /* Alinhar os checkboxes à esquerda */
+    color: #fff;
+}
+
+.checkbox-label {
+    margin-bottom: 10px; /* Adicionamos um espaçamento entre os checkboxes */
+    width: 20px;
+}
+
+.checkbox-label p {
+    margin-top: -2.8rem;
+    margin-left: 2rem;
+    width: 200px;
+}
