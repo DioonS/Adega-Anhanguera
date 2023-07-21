@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EECCL3TE7V"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EECCL3TE7V');
+    </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desfrute de nossa variedade de refrigerantes disponíveis em nossa adega. Refresque-se com sabores irresistíveis que complementam perfeitamente seus momentos de descontração e prazer. Descubra uma seleção de refrigerantes premium, desde clássicos atemporais até opções inovadoras e sofisticadas. Explore nossa coleção e encontre o refrigerante perfeito para satisfazer seu paladar.">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ee7e969a6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EECCL3TE7V"></script>
-    <title>Adega Anhanguera</title>
+    <title>Adega Anhanguera - Refrigerantes</title>
 </head>
 <body>
     <div class="container-menu">
@@ -41,20 +50,13 @@
                         </ul>
                     </li>
                     <li class="menu-item"><a href="#" class="menu-link">Gelos</a></li>
-                    <li class="menu-item has-submenu submenu-wines"><a href="#" class="menu-link no-submenu">Vinhos</a>
-                        <ul class="submenu">
-                            <li><a href="#">Tinto</a></li>
-                            <li><a href="#">Branco</a></li>
-                            <li><a href="#">Rosé</a></li>
-                        </ul>
-                    </li>
+                    <li class="menu-item"><a href="vinho.html" class="menu-link">Vinhos</a></li>
                     <li class="menu-item has-submenu submenu-distillates"><a href="#" class="menu-link no-submenu">Destilados</a>
                         <ul class="submenu">
-                            <li><a href="#">Cachaça</a></li>
-                            <li><a href="#">Whisky</a></li>
-                            <li><a href="#">Vodka</a></li>
-                            <li><a href="#">Tequila</a></li>
-                            <li><a href="#">Outros</a></li>
+                            <li><a href="cachaça.html">Cachaça</a></li>
+                            <li><a href="whisky.html">Whisky</a></li>
+                            <li><a href="vodka.html">Vodka</a></li>
+                            <li><a href="outros.html">Outros</a></li>
                         </ul>
                     </li>
                 </ul> <!--menu-->
@@ -108,24 +110,18 @@
             </div>
         </div>
         <div class="dropdown-button">
-            <button class="dropbtn">Gelos</button>
+            <button class="dropbtn"><a href="#">Gelos</a></button>
         </div>
-        <div class="dropdown">
-            <button class="dropbtn">Vinhos</button>
-            <div class="dropdown-content">
-                <a href="#">Tinto</a>
-                <a href="#">Branco</a>
-                <a href="#">Rosé</a>
-            </div>
+        <div class="dropdown-button">
+            <button class="dropbtn"><a href="vinho.html">Vinhos</a></button>
         </div>
         <div class="dropdown">
             <button class="dropbtn">Destilados</button>
             <div class="dropdown-content">
-                <a href="#">Cachaça</a>
-                <a href="#">Whisky</a>
-                <a href="#">Vodka</a>
-                <a href="#">Tequila</a>
-                <a href="#">Outros</a>
+                <a href="cachaça.html">Cachaça</a>
+                <a href="whisky.html">Whisky</a>
+                <a href="vodka.html">Vodka</a>
+                <a href="outros.html">Outros</a>
             </div>
         </div>
     </nav> <!-- .navigation -->
