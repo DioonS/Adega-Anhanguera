@@ -1,0 +1,286 @@
+@import url(modal.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    background-color: #2d2a2a;
+}
+
+body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bebidas2.jpg) center center no-repeat fixed;
+    background-size: cover;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-clip: content-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    transition: width 0.3s ease;
+}
+
+.logo {
+    width: 120px;
+    max-width: 100%;
+    max-height: 120px;
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+}
+
+.sidebar {
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D19B3E;
+    transition: width 0.2s ease-in;
+}
+
+.sidebar.reduced {
+    width: 80px;
+}
+
+.sidebar.reduced img {
+    display: none;
+}
+
+.sidebar.reduced li {
+    margin-top: 1rem;
+}
+
+.sidebar.reduced li:first-child{ 
+    margin-top: 7rem;
+}
+
+.sidebar.reduced li a i {
+    margin-left: -1.2rem;
+    font-size: 2rem;
+}
+
+.sidebar.reduced li a span {
+    display: none;
+}
+
+.sidebar.reduced button {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.sidebar li {
+    padding: 10px;
+    font-family: 'Quicksand';
+    font-size: 25px;
+    display: flex;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.profile-icon {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.profile-icon i {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #FCD926;
+}
+
+.profile-icon span {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dropdown {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    display: none;
+    top: 15px;
+    left: 135px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #FCD926;
+}
+
+.show-triangle .dropdown::after {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-right: -.5rem;
+    margin-top: .5rem;
+    background-color: #FCD926;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #D19B3E;
+    border-radius: 8px;
+}
+
+.dropdown-content.show-dropdown {
+    display: block;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+h1, p {
+    font-family: 'Quicksand';
+    color: #fff;
+}
+
+.centered-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background: rgb(209,155,62);
+    background: linear-gradient(90deg, rgba(209,155,62,1) 0%, rgba(252,217,38,1) 50%, rgba(209,155,62,1) 100%);
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+.centered-button i {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.centered-button .arrow-right {
+    display: none;
+}
+
+.centered-button.button-reduced .arrow-left {
+    display: none;
+}
+
+.centered-button.button-reduced .arrow-right {
+    display: block;
+}
+
+.cards-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-left: 19rem;
+    transition: margin-left 0.3s ease, width 0.3s ease;
+}
+
+.card {
+    width: 360px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 0 0 1px #D19B3E, 0 0 0 2px #FCD926;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+
+.card p {
+    margin: 0;
+    font-size: 20px;
+    width: 300px;
+}
+
+.card span {
+    font-size: 32px;
+    text-align: right;
+    margin-top: -6rem;
+    color: #fff;
+    font-family: 'Quicksand';
+    margin-right: .5rem;
+}
+
+.card i {
+    font-size: 32px;
+    color: #fff;
+    text-align: right;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    margin-right: 1rem;
+}
+
+.container.reduced .cards-container {
+    margin-left: 82px;
+}
+
+.container.reduced .card {
+    width: 420px;
+}
+
+.container.reduced .card p {
+    width: 200px;
+}
