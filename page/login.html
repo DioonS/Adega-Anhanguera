@@ -14,9 +14,15 @@
             <h1 class="login-title">Painel</h1>
             <h1 class="login-title">Administrativo</h1>
         </div>
-        <p>Login</p> <input type="text" placeholder="Usuário">
-        <p>Senha</p> <input type="password" placeholder="Senha">
-        <a href="dashboard.html"><button>Entrar</button></a> 
+        <form class="user" action="/logar" method="POST">
+            <p>Login</p> <input type="text" placeholder="Usuário">
+            <p>Senha</p> <input type="password" placeholder="Senha">
+            <div class="checkbox-label">
+                <input type="checkbox" class="custom-control-input" id="lembrar" name="lembrar" style="width: 20px;">
+                <label class="custom-control-label" for="lembrar" style="width: 100px;"><span>Manter Login</span></label>
+            </div>
+            <button>Entrar</button>
+        </form>
     </div>
 </body>
 </html>
